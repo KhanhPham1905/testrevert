@@ -1,0 +1,23 @@
+:where(.css-dev-only-do-not-override-pr0fja)[class^="ant-col"] [class^="ant-col"], :where(.css-dev-only-do-not-override-pr0fja)[class*=" ant-col"] [class^="ant-col"], :where(.css-dev-only-do-not-override-pr0fja)[class^="ant-col"] [class*=" ant-col"], :where(.css-dev-only-do-not-override-pr0fja)[class*=" ant-col"] [class*=" ant-col"] {
+    box-sizing: border-box;
+    margin-right: 0 !important;
+}
+
+
+.it_tab {
+    /* display: inline-block; */
+    float: left;
+    padding: 10px 20px !important;
+    /* border-right: 0.5px solid #C8C8C8; */
+    font-size: 15px;
+    line-height: 24px;
+    color: #495057;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 3px;
+    z-index: 9999999;
+    position: relative;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-radio-button-wrapper {
+    padding-inline: 0px; 
+}

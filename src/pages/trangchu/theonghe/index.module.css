@@ -1,0 +1,142 @@
+.cover_item_home{
+    float: left;
+    width: 100%;
+    background: #f6f7fc;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    max-width: 1275px;
+}
+.cover_job{
+    float: left;
+    width: 100%;
+    padding: 120px 0;
+}
+.job{
+    visibility: unset;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.job > h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.job > p {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #444;
+    font-weight: 400;
+}
+.cover_it_job{
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+.item_job{
+    float: left;
+    width: calc(100% / 4 - 20px);
+    margin: 0 10px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    height: 215px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+.item_job > a {
+    display: block;
+    color: unset;
+    text-decoration: unset;
+
+}
+.text_item_job {
+    margin-top: 30px;
+}
+.text_item_job > h3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #444;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.text_item_job > p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #666;
+    font-weight: 400;
+}
+
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style.css?v=1698026277 ; media=all */
+@media all {
+    .d_block {
+        display: block;
+        color: unset;
+    }
+}
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style_home.css?v=1698026277 ; media=all */
+@media all {
+    .item_job {
+        float: left;
+        width: calc(100% / 4 - 20px);
+        margin: 0 10px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 25px;
+        height: 215px;
+        box-sizing: border-box;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .img_item_job {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .text_item_job {
+        margin-top: 30px;
+    }
+    .h3_text_it {
+        font-size: 16px;
+        line-height: 24px;
+        color: #444;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .p_text_it {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #666;
+        font-weight: 400;
+    }
+    @media only screen and (max-width: 1024px) {
+        .item_job {
+            padding: 30px 10px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .item_job {
+            width: calc(100% / 3 - 20px);
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .item_job {
+            width: 80%;
+            margin: 0 auto 25px;
+            padding: 30px;
+            float: unset;
+        }
+    }
+}

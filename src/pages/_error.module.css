@@ -1,0 +1,90 @@
+/*! CSS Used from: Embedded */
+@media screen and (max-width: 1025px) {
+    .container_error {
+        background-size: 100% 100% !important;
+    }
+}
+@media screen and (max-width: 540px) {
+    .container_error {
+        background-image: url(https://freelancer.timviec365.vn/images/error_mb.png) !important;
+    }
+    .error {
+        width: 100% !important;
+        padding-top: 148px !important;
+        padding-bottom: 162px !important;
+        text-align: left !important;
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .error_text {
+        padding: 0 20px;
+    }
+    .error_btn {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 415px) {
+    .container_error {
+        background-image: url(https://freelancer.timviec365.vn/images/error_mb.png) !important;
+    }
+    .error {
+        width: 100% !important;
+        padding-top: 148px !important;
+        padding-bottom: 162px !important;
+        text-align: left !important;
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .error_text {
+        padding-left: 20px;
+    }
+    .error_btn {
+        text-align: center;
+    }
+}
+.container_error {
+    float: left;
+    width: 100%;
+    background-image: url(https://freelancer.timviec365.vn/images/error.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.error {
+    border: none !important;
+    width: 634px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 187px;
+    padding-bottom: 517px;
+}
+.error_text {
+    padding-bottom: 30px;
+}
+.error_text span {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.error_btn {
+    width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+.error_btn a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #4c5bd4;
+}

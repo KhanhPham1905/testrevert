@@ -1,0 +1,538 @@
+
+
+
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style_freelancer.css?v=1697001098 ; media=all */
+@media all {
+    .banner_project {
+        width: 100%;
+        height: 588px;
+        background-image: url(https://freelancer.timviec365.vn/images/bg_prj.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .text_banner_prj {
+        max-width: 510px;
+        margin-right: 20px;
+    }
+    .title_banner_prj {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 48px;
+        color: #444444;
+        position: relative;
+    }
+    .title_banner_prj::after {
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #106fde;
+        left: 0;
+        bottom: 0;
+    }
+    .p01_banner {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #666666;
+        margin-top: 20px;
+    }
+    .cover_btn_banner {
+        float: left;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .dv_ban_tg {
+        background: #4c5bd4;
+        border-radius: 5px;
+        height: 48px;
+        line-height: 48px;
+        float: left;
+        width: 48%;
+        text-align: center;
+    }
+    .ic_14 {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .dv_ban_tg span {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 500;
+        font-size: 17px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .dv_du_an {
+        float: right;
+        width: 48%;
+        background: #ffffff;
+        border: 1px solid #4c5bd4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .dv_du_an span {
+        font-weight: 500;
+        font-size: 17px;
+        color: #4c5bd4;
+    }
+    .bg_freelancer_nganh_nghe {
+        float: left;
+        width: 100%;
+        background: #f3f6f9;
+    }
+    .cover_freelancer_nganh_nghe {
+        float: left;
+        width: 100%;
+    }
+    .main_freelancer_nganh_nghe {
+        float: left;
+        width: 100%;
+        margin: 100px 0px;
+    }
+    .text_freelancere_nganh_nghe {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .h2_frelancer_nganh_nghe {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        color: #444444;
+        margin-bottom: 10px;
+    }
+    .text_p_freelancer_nganh_nghe {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+        color: #666666;
+    }
+    .list_freelancer_nganh_nghe {
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item_freelancer_nganh_nghe {
+        width: calc(100% / 3 - 40px);
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+        background: #ffffff;
+        border-radius: 6px;
+        box-sizing: border-box;
+        padding: 50px;
+        border-bottom: transparent 4px solid;
+    }
+    .item_freelancer_nganh_nghe:hover {
+        border-bottom: 4px solid #4c5bd4;
+    }
+    .ic_15 {
+        width: 58px;
+        height: 58px;
+    }
+    .h3_freelancer_nganh_nghe {
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+        color: #38475a;
+    }
+    .p_item_freelancer_nganh_nghe {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #666666;
+        margin-top: 20px;
+    }
+    .a_item_freelancer_nganh_nghe {
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .a_item_freelancer_nganh_nghe span {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 23px;
+        text-align: center;
+        color: #4c5bd4;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .ic_18 {
+        width: 14px;
+        height: 11px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .cover_sub_freelancer_nganh_nghe {
+        float: left;
+        width: 100%;
+    }
+    .main_sub_freelancer_nganh_nghe {
+        width: 75%;
+        margin: auto;
+    }
+    .sub_freelancer_nganh_nghe {
+        float: left;
+        width: 100%;
+        margin: 35px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img_dang_du_an01 {
+        width: 200px;
+        height: 156px;
+    }
+    .img_dang_du_an02 {
+        width: 145px;
+        height: 150px;
+    }
+    .cover_text_nn {
+        width: 80%;
+    }
+    .p1_text_nn {
+        font-weight: normal;
+        font-size: 23px;
+        color: #444444;
+        background: #d7e8fc;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+        text-align: center;
+        line-height: 39px;
+        float: left;
+        margin-right: 10px;
+    }
+    .main_text_nn {
+        float: right;
+        width: calc(100% - 49px);
+    }
+    .p01_main_text_nn {
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 26px;
+        color: #444444;
+        margin-bottom: 16px;
+    }
+    .p02_main_text_nn {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #666666;
+    }
+    .btn_dang_viec_ngay {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .dang_viec_ngay {
+        background: #4c5bd4;
+        border-radius: 10px;
+        width: 219px;
+        margin: 50px auto;
+        height: 48px;
+        line-height: 48px;
+    }
+    .ic_dang_viec {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .dang_viec_ngay span {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    @media only screen and (max-width: 768px) {
+        .ic_14 {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .item_freelancer_nganh_nghe,
+        .main_sub_freelancer_nganh_nghe {
+            width: calc(100% - 40px);
+        }
+        .sub_freelancer_nganh_nghe {
+            flex-direction: column;
+        }
+        .sub_freelancer_nganh_nghe:nth-of-type(2) {
+            flex-direction: column-reverse;
+        }
+        .it_sub_freelancer {
+            text-align: center;
+        }
+        .p01_main_text_nn {
+            font-size: 20px;
+        }
+        .text_freelancere_nganh_nghe {
+            padding: 0 10px;
+        }
+        .banner_project {
+            height: 446px;
+        }
+        .text_banner_prj {
+            position: unset;
+            padding: 81px 15px;
+            margin-right: 0;
+        }
+        .cover_btn_banner {
+            width: 100%;
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+        }
+        .dv_ban_tg,
+        .dv_du_an {
+            float: unset;
+            width: unset;
+            margin-bottom: 20px;
+        }
+        .title_banner_prj {
+            font-size: 28px;
+        }
+        .img_banner_tin {
+            display: none;
+        }
+    }
+    .flex {
+        display: flex;
+    }
+    .space {
+        justify-content: space-between;
+    }
+    .center {
+        align-items: center;
+    }
+}
+
+/* khanh css */
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style.css?v=1697010149 ; media=all */
+@media all {
+
+    .container {
+        width: 95%;
+        margin: auto;
+        max-width: 1275px;
+    }
+    .title_nn {
+        color: #38475a;
+    }
+    .cover_container {
+        float: left;
+        width: 100%;
+    }
+    .main_container {
+        height: auto;
+    }
+    @media only screen and (max-width: 1024px) {
+        .container {
+            width: 100%;
+        }
+    }
+  }
+  
+
+  /* // */
+  /*! CSS Used from: https://freelancer.timviec365.vn/css/style_freelancer.css?v=1697855964 ; media=all */
+@media all {
+    .text_it_bold {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text_it_normal {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .form_cover {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .cover_input {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .label_style {
+        float: left;
+        width: 100%;
+    }
+    .title_input {
+        font-size: 16px;
+        float: left;
+        width: 100%;
+        color: #444444;
+        margin-bottom: 5px;
+    }
+    .title_input span {
+        color: #ff0000;
+    }
+    .img_input {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        right: 36px;
+        top: 46px;
+    }
+    .input_style {
+        background: #ffffff;
+        border: 1px solid #ced4da;
+        box-sizing: border-box;
+        border-radius: 4px;
+        display: block;
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+        line-height: 153.69%;
+        color: #444;
+        padding: 0px 20px;
+        float: left;
+        font-family: "RobotoMedium";
+    }
+    .color_4c {
+        color: #4c5bd4;
+    }
+    .register_flc {
+        cursor: pointer;
+    }
+}
+/*! CSS Used from: https://freelancer.timviec365.vn/css/popup.css?v=1697855964 ; media=all */
+@media all {
+    .sub_login_bottom {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main_login_bottom.active {
+        float: left;
+        width: 100%;
+    }
+    .main_login_bottom.active {
+        display: block;
+    }
+    .popup_login_bottom {
+        background-color: white;
+        float: left;
+        width: 680px;
+        padding: 30px 60px;
+    }
+    .quen_mk {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #4c5bd4;
+    }
+    .cover_btn_login_popup {
+        width: 100%;
+        height: 54px;
+        line-height: 54px;
+        text-align: center;
+        margin-top: 25px;
+        float: left;
+    }
+    .btn_login_popup {
+        border: unset;
+        height: 100%;
+        width: 100%;
+        background: #4c5bd4;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .text_popup {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text_p_popup {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #666666;
+    }
+    @media only screen and (max-width: 767px) {
+        .popup_login_bottom {
+            padding: 15px;
+        }
+    }
+}
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: RobotoMedium;
+    src: url(https://freelancer.timviec365.vn/fonts/Roboto-Medium.ttf);
+    font-display: swap;
+}
+
+  
+/* // */
+/*! CSS Used from: https://freelancer.timviec365.vn/css/popup.css?v=1697855964 ; media=all */
+@media all {
+    .popup_login_top {
+        background-color: white;
+        float: left;
+        width: 100%;
+        padding: 40px;
+        border-bottom: 1px solid #dee2e6;
+    }
+    .title_popup_login {
+        display: inline-block;
+        float: left;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #001935;
+    }
+    @media only screen and (max-width: 767px) {
+        .popup_login_top {
+            padding: 10px;
+        }
+    }
+}
+
+
+/*! CSS Used from: https://freelancer.timviec365.vn/css/popup.css?v=1697859838 ; media=all */
+@media all {
+    .popup_login_top {
+        background-color: white;
+        float: left;
+        width: 100%;
+        padding: 40px;
+        border-bottom: 1px solid #dee2e6;
+    }
+    .title_popup_login {
+        display: inline-block;
+        float: left;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #001935;
+    }
+    @media only screen and (max-width: 767px) {
+        .popup_login_top {
+            padding: 10px;
+        }
+    }
+}
+

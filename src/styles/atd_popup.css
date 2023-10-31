@@ -1,0 +1,4 @@
+:where(.css-dev-only-do-not-override-pr0fja).ant-popover .ant-popover-inner {
+    /* background-color: initial !important; */
+    padding: 0 !important;
+}

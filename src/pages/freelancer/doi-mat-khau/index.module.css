@@ -1,0 +1,116 @@
+@media all {
+    .right_container {
+        float: left;
+        width: 80%;
+        height: 100%;
+        background: #f7f9fb;
+        padding: 30px;
+        border-left: 1px solid #d5dce1;
+        min-height: 600px;
+    }
+    .cate {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cate span,
+    .cate a {
+        font-size: 16px;
+        line-height: 24px;
+        color: #666c7c;
+    }
+    .cate span:last-child a {
+        color: #4c5bd4;
+    }
+    .form_cover {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .main_right_container {
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 30px 20px;
+        background: #ffffff;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+    }
+    .title_input {
+        font-size: 16px;
+        color: #666666;
+        margin: 20px 0px 5px;
+        float: left;
+        width: 100%;
+    }
+    .title_input span {
+        color: #ff0000;
+    }
+    .input_style {
+        background: #ffffff;
+        border: 1px solid #ced4da;
+        box-sizing: border-box;
+        border-radius: 3px;
+        display: block;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        line-height: 153.69%;
+        color: #444;
+        padding: 0px 20px;
+        float: left;
+        font-family: RobotoMedium;
+    }
+    .changepass_uv {
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+    .cover_input_uv {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+    }
+    .btn_changepass_uv {
+        width: 100%;
+        background: #4c5bd4;
+        border-radius: 10px;
+        border: unset;
+        height: 44px;
+        font-size: 16px;
+        line-height: 175.19%;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+    @media only screen and (max-width: 1024px) {
+        .right_container {
+            width: 100%;
+            padding: 30px 20px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .cover_input_uv {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .right_container {
+            padding: 30px 15px;
+        }
+    }
+    .changepass_uv img {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+}
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: RobotoMedium;
+    src: url(https://freelancer.timviec365.vn/fonts/Roboto-Medium.ttf);
+    font-display: swap;
+}

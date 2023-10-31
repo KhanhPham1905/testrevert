@@ -1,0 +1,386 @@
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style.css?v=1698001526 ; media=all */
+@media all {
+    .container {
+        width: 95%;
+        margin: auto;
+        max-width: 1275px;
+    }
+    @media only screen and (max-width: 1024px) {
+        .container {
+            width: 100%;
+        }
+    }
+}
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style_freelancer.css?v=1698001526 ; media=all */
+@media all {
+    .banner {
+        width: 100%;
+        height: 242px;
+        background: url(https://freelancer.timviec365.vn/images/banner_1366.webp) no-repeat;
+        background-size: 100% 100%;
+        float: left;
+        position: relative;
+    }
+    .cover_content_banner_both {
+        position: absolute;
+        width: 100%;
+        top: 75px;
+    }
+    .content_banner {
+        text-align: center;
+        width: 50%;
+        border-radius: 15px;
+        background: rgba(24, 43, 73, 0.8);
+        padding: 35px 0;
+        margin: auto;
+    }
+    .content_banner span {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.0125em;
+        color: #ffffff;
+    }
+    .relative_banner {
+        position: relative;
+    }
+    @media only screen and (min-width: 1520px) {
+        .banner {
+            height: 275px;
+            background: url(https://freelancer.timviec365.vn/images/banner_1520.webp) no-repeat;
+            background-size: 100% 100%;
+        }
+        .cover_content_banner_both {
+            top: 90px;
+        }
+        .content_banner {
+            width: 45%;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        .banner {
+            height: 275px;
+            background: url(https://freelancer.timviec365.vn/images/banner_1024.webp) no-repeat;
+            background-size: 100% 100%;
+        }
+        .cover_content_banner_both {
+            top: 90px;
+        }
+        .content_banner {
+            width: 50%;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .banner {
+            height: 275px;
+            background: url(https://freelancer.timviec365.vn/images/banner_768.webp) no-repeat;
+            background-size: 100% 100%;
+        }
+        .content_banner {
+            width: 65%;
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .banner {
+            height: 275px;
+            background: linear-gradient(360deg, #0c0c0c 0%, rgba(0, 0, 0, 0) 100%);
+            background-size: 100% 100%;
+        }
+        .content_banner {
+            width: 90%;
+        }
+    }
+}
+
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style.css?v=1698001526 ; media=all */
+@media all {
+    .f_left {
+        float: left;
+    }
+    .container {
+        width: 95%;
+        margin: auto;
+        max-width: 1275px;
+    }
+    .padding_style {
+        padding: 0 80px;
+    }
+    .w_100 {
+        width: 100% !important;
+    }
+    .cover_container {
+        float: left;
+        width: 100%;
+    }
+    .main_container {
+        height: auto;
+    }
+    @media only screen and (max-width: 1024px) {
+        .container {
+            width: 100%;
+        }
+        .padding_style {
+            padding: 0 15px;
+        }
+    }
+}
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style_freelancer.css?v=1698001526 ; media=all */
+@media all {
+    .f_left {
+        float: left;
+    }
+    .text_content_it01 span {
+        display: inline-block;
+    }
+    .text_content_it01 span:first-child {
+        width: 165px;
+        float: left;
+    }
+    .tag_nganh_nghe {
+        float: left;
+        clear: both;
+    }
+    .it_tag_nganh_nghe {
+        background: #e4e6f9;
+        box-sizing: border-box;
+        border-radius: 3px;
+        display: inline-block;
+        height: 27px;
+        line-height: 27px;
+        padding: 0px 15px;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #4c5bd4;
+        margin-bottom: 5px;
+    }
+    .text_content_it01 {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.3px;
+        color: #777777;
+        float: left;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .cover_job_detail {
+        margin: 50px 0;
+        float: left;
+        width: 100%;
+    }
+    .job_detail_top {
+        float: left;
+        width: 100%;
+        border-bottom: 1px dotted #000000;
+        padding-bottom: 25px;
+    }
+    .left_detail_top {
+        float: left;
+        width: 75%;
+    }
+    .logo_job_detail {
+        width: 113px;
+        height: 113px;
+        border: 1px solid #dddddd;
+        box-sizing: border-box;
+        border-radius: 5px;
+        display: inline-block;
+        vertical-align: middle;
+        object-fit: cover;
+        padding: 10px;
+    }
+    .cover_text_job_dt {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+        width: calc(100% - 113px - 25px);
+    }
+    .title_job_dt {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #444444;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        word-break: break-all;
+    }
+    .info_ntd {
+        margin: 10px 10px 0px 0px;
+    }
+    .ic_01 {
+        width: 19px;
+        height: 19px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .location_job_dt {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1px;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 23px;
+        text-transform: capitalize;
+        color: #666666;
+    }
+    .job_detail_bottom {
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .cover_post {
+        float: left;
+        width: 100%;
+    }
+    .it_post {
+        float: left;
+        width: 100%;
+        padding: 25px 0;
+        border-bottom: 1px solid #ebebeb;
+    }
+    .cover_logo_td {
+        width: 157px;
+        height: 98px;
+        border: 1px solid #ebebeb;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 10px;
+        float: left;
+        margin-right: 25px;
+    }
+    .cover_logo_td img {
+        object-fit: cover;
+    }
+    .cover_it_post {
+        float: left;
+        width: calc(100% - 157px - 25px);
+    }
+    .cover_content_td {
+        float: left;
+    }
+    .title_td {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        color: #444444;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .time_td {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 153.69%;
+        text-align: center;
+        padding: 2px 15px;
+        background: #4c5bd42e;
+        opacity: inherit;
+        border-radius: 3px;
+        color: #4c5bd4;
+    }
+    .hr_td {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #666666;
+        margin-bottom: 5px;
+    }
+    .ic_10 {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .text_01 {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 30px;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        color: #666666;
+    }
+    .ic_location_td {
+        width: 16px;
+        height: 18px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .cover_btn_td {
+        float: right;
+        height: 98px;
+        line-height: 98px;
+    }
+    .btn_td01 {
+        background: #4c5bd4;
+        border: 1px solid #4c5bd4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+        min-width: 165px;
+        padding: 0 10px;
+        height: 40px;
+        display: inline-block;
+        line-height: 40px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .btn_td02 {
+        border: 1px solid #4c5bd4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: 0.3px;
+        text-transform: capitalize;
+        color: #4c5bd4;
+        width: 165px;
+        height: 40px;
+        display: inline-block;
+        line-height: 40px;
+    }
+    @media only screen and (max-width: 1024px) {
+        .cover_job_detail {
+            margin: 30px 0;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .left_detail_top {
+            width: 72%;
+        }
+        .cover_btn_td {
+            float: left;
+            width: 100%;
+            margin-top: 15px;
+            height: auto;
+            line-height: unset;
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .logo_job_detail {
+            width: 89px;
+            height: 89px;
+        }
+        .cover_text_job_dt {
+            margin-left: 15px;
+        }
+        .left_detail_top {
+            width: 100%;
+        }
+        .cover_logo_td {
+            display: none;
+        }
+        .cover_it_post {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,131 @@
+th.ant-table-cell{
+    text-align: center !important;
+    background: #4C5BD4 !important;
+    color: #FFFFFF !important;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before, :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-thead >tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    display: none !important;
+}
+
+.start_antd{
+    margin-right: '3px' !important;
+}
+
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-cell, :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-tbody>tr>th,
+ :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper tfoot>tr>td {
+    position: relative;
+    padding: 16px 0px;
+    overflow-wrap: break-word;
+ }
+
+/* form dang việc bán thời gian */
+.ant-form-item-control-input-content {
+/* text-align: initial !important; */
+}
+
+.ant-form-item .ant-form-item-label {
+    text-align: initial !important;
+}
+
+.ant-form-item .ant-form-item-label >label::after {
+    content: "";
+}
+
+.ant-col-15 {
+    flex: 0 0 56.5% ; 
+    /* max-width: 62.5%; */
+}
+
+.tab {
+    float: left;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #FFFFFF;
+    border: 1px solid #D7DCE0;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    margin-left: 10px;
+    width: 95px;
+    text-align: center;
+    cursor: pointer;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-radio-button-wrapper:first-child:last-child {
+    border-radius: 10px !important;
+}
+
+.ant-radio-group-solid :where(.css-dev-only-do-not-override-pr0fja).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    color: #fff;
+    /* background: #1677ff; */
+    border-color: #1677ff;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-radio-button-wrapper:last-child {
+    border-start-end-radius: 6px;
+    border-end-end-radius: 6px;
+    border-radius: 10px;
+}
+
+.ant-radio-group-solid :where(.css-dev-only-do-not-override-pr0fja).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    margin-right: initial !important;
+    /* margin-left: 10px !important; */
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-radio-button-wrapper >.ant-radio-button {
+    margin-right: 10px;
+    width: 95px;
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-radio-group {
+    width: 100%;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja)[class^="ant-col"] [class^="ant-col"], :where(.css-dev-only-do-not-override-pr0fja)[class*=" ant-col"] [class^="ant-col"], :where(.css-dev-only-do-not-override-pr0fja)[class^="ant-col"] [class*=" ant-col"], :where(.css-dev-only-do-not-override-pr0fja)[class*=" ant-col"] [class*=" ant-col"] {
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-form-item {
+    margin-bottom: 0px;
+}
+
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-form-item .ant-form-item-label >label {
+    display: block;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-form-vertical .ant-form-item-label, :where(.css-dev-only-do-not-override-pr0fja).ant-col-24.ant-form-item-label, :where(.css-dev-only-do-not-override-pr0fja).ant-col-xl-24.ant-form-item-label {
+    padding: 0 0 0 0;
+}
+
+.ant-select-selector{
+    border-radius: 4 !important;
+    padding: 0 !important;
+    /* border: initial !important */
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-input-number .ant-input-number-input {
+    padding: 4px 0px !important;
+}
+
+.ant-select-selection-item{
+    font-weight: 500 !important;
+}
+
+
+/* :where(.css-dev-only-do-not-override-pr0fja).ant-form-item .ant-form-item-control-input-content {
+    flex: auto;
+    max-width: 100%;
+    text-align: center;
+} */
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-checkbox .ant-checkbox-input {
+    opacity: initial;
+}
+
+/* :where(.css-dev-only-do-not-override-pr0fja).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: none !important;
+} */

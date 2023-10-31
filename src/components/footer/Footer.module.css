@@ -1,0 +1,177 @@
+.main {
+  padding: 30px 280px;
+
+  line-height: 32px;
+  background-color: var(--footer-bg-color);
+}
+
+.listKeywords {
+  margin-bottom: 32px;
+}
+
+.singleSpan {
+  margin-right: 16px;
+  color: #fff;
+}
+
+.headerText {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.menu {
+  margin-top: 32px;
+}
+
+.fstElm {
+  height: 40%;
+}
+
+.sndElem {
+  margin-top: 45px;
+}
+
+.thirdSection {
+  margin-top: 32px;
+}
+
+.listCert {
+  display: flex;
+  align-items: center;
+}
+
+.listQr {
+  display: flex;
+}
+
+.singleQr {
+  margin-right: 26px;
+}
+
+.qrText {
+  text-align: center;
+  font-size: 12px;
+}
+
+.compNameText {
+  font-weight: 600;
+}
+
+.qrHeaderText {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.compInfoText {
+  font-size: 15px;
+}
+
+.listBtns {
+  display: flex;
+}
+
+.btnDownload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.18);
+  border: none;
+  border-radius: 8px;
+}
+
+.downloadSection {
+  display: none;
+}
+
+.collapses {
+  display: none;
+}
+
+.insideTxt:hover {
+  text-decoration: underline;
+  color: #4aa7ff !important;
+}
+
+.qrSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* responsive */
+
+@media screen and (max-width: 1669px) {
+  .main {
+    padding: 20px 100px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .main {
+    padding: 30px 83px;
+  }
+}
+
+/* 1068px */
+@media screen and (max-width: 1068px) {
+  .qrSection {
+    display: none;
+  }
+
+  .downloadSection {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 30px 24px;
+  }
+
+  .qrSection {
+    display: none;
+  }
+
+  .downloadSection {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none !important;
+  }
+
+  .txt {
+    font-size: 13px !important;
+  }
+
+  .collapses {
+    display: block;
+    margin-top: 30px;
+  }
+  .menu {
+    margin-bottom: 120px;
+  }
+
+  .downloadSection {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .main {
+    padding: 30px 10px;
+  }
+
+  .aboutComp {
+    margin-top: 20px;
+  }
+
+  .btnDownload {
+    margin-bottom: 10px;
+  }
+}

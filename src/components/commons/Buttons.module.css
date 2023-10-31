@@ -1,0 +1,45 @@
+.btnWrapper {
+  border-radius: 10px;
+  background-color: #42d778;
+  padding: 10px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .text {
+    color: #fff !important;
+  }
+}
+
+.btnWrapper1 {
+  border-radius: 10px;
+  background-color: #4c5bd4;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  .img {
+    margin-right: 10px;
+  }
+
+  .text {
+    color: #fff !important;
+  }
+}
+
+.btnExcel {
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #20744a;
+
+  .img {
+    margin-right: 10px;
+  }
+
+  .text {
+    width: 100%;
+    color: #20744a !important;
+  }
+}

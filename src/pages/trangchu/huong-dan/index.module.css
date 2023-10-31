@@ -1,0 +1,3601 @@
+/* banner dùng chung */
+.banner {
+  width: 100%;
+  height: 242px;
+  background: url(/banner_1366.webp) no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  position: relative;
+}
+
+.slick-slide img {
+  border-radius: 10px !important;
+}
+
+.main_search .select2-container--default .select2-selection--single {
+  border: none !important;
+}
+
+.cover_content_banner_both {
+  position: absolute;
+  width: 100%;
+  top: 75px;
+}
+
+select#dk_tinhthanhpho_uv {
+  z-index: 999999999;
+}
+
+.content_banner {
+  text-align: center;
+  width: 50%;
+  border-radius: 15px;
+  background: rgba(24, 43, 73, 0.8);
+  padding: 35px 0;
+  margin: auto;
+}
+
+.content_banner span {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.0125em;
+  color: #ffffff;
+}
+
+#form_register_uv .item_input .select2-container {
+  position: relative;
+}
+/* page đăng kí nhà tuyển dụng */
+
+.main_cover_container {
+  float: left;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.cover_register_both {
+  width: 60%;
+  margin: auto;
+}
+
+.register_top {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid#DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  float: left;
+}
+
+.it_rgt_top {
+  width: calc(100% / 2 - 18px);
+  margin: 0px 9px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px;
+  float: left;
+  cursor: pointer;
+  color: #666666;
+  position: relative;
+}
+
+.it_rgt_top:hover,
+.it_rgt_top.active {
+  color: #4c5bd4;
+  border: 1px solid #4c5bd4;
+}
+
+/* .it_rgt_top.active {
+    color: #4C5BD4;
+    border: 1px solid #4C5BD4;
+} */
+
+.it_rgt_top.active:before {
+  position: absolute;
+  content: "";
+  background: url(/ic_tick.png) no-repeat;
+  background-size: 100% 100%;
+  width: 24px;
+  height: 24px;
+  right: -10px;
+  top: -10px;
+}
+
+.header_hover:hover {
+  border-bottom: #fff 2px solid;
+}
+
+.text_it_bold {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text_it_normal {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.register_bottom {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.register_bottom.active {
+  display: block;
+}
+
+.title_rgt_bt {
+  width: 100%;
+  float: left;
+  margin: 25px 0px;
+}
+
+.ic_lock {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.text_title_rgt_bt {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #4c5bd4;
+}
+
+/* .... */
+
+.form_cover {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+.cover_input,
+.cover_input_2 {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.f_left {
+  float: left;
+}
+
+.f_right {
+  float: right;
+}
+
+.item_input {
+  display: inline-block;
+  width: calc(100% / 2 - 25px);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.label_style {
+  float: left;
+  width: 100%;
+}
+
+.title_input {
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  color: #444444;
+  margin-bottom: 5px;
+}
+
+.title_input span,
+.color_red {
+  color: #ff0000;
+}
+
+.img_input {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 36px;
+  top: 46px;
+}
+
+.item_input .select2-container {
+  width: 100% !important;
+}
+
+.item_input .select2-container .select2-selection--single {
+  height: 48px;
+}
+
+.item_input
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  line-height: 48px;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+
+.item_input .select2-selection__arrow {
+  height: 39px !important;
+  right: 21px !important;
+}
+
+.input_style {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  line-height: 153.69%;
+  color: #444;
+  padding: 0px 20px;
+  float: left;
+  font-family: "RobotoMedium";
+}
+
+.cover_btn_continue {
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-top: 15px;
+}
+
+.btn_continue {
+  cursor: pointer;
+  border: unset;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  background: #4c5bd4;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* đăng kí ứng viên */
+
+.cover_tab {
+  float: left;
+  display: inline-block;
+  border: 0.5px solid #c8c8c8;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.it_tab {
+  /* display: inline-block; */
+  float: left;
+  padding: 10px 20px;
+  /* border-right: 0.5px solid #C8C8C8; */
+  font-size: 15px;
+  line-height: 24px;
+  color: #495057;
+  border: 0.5px solid #ffffff;
+  border-radius: 3px;
+  z-index: 9999999;
+  position: relative;
+  background: #fff;
+}
+
+.it_tab:hover {
+  background: #f2f8fe;
+  border: 0.5px solid #4c5bd4;
+  box-sizing: border-box;
+  color: #4c5bd4;
+  border-radius: 3px;
+}
+
+.it_tab.active {
+  background: #f2f8fe;
+  border: 0.5px solid #4c5bd4;
+  box-sizing: border-box;
+  color: #4c5bd4;
+  border-radius: 3px;
+}
+
+.tab_input_both {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.tab_input_both.active {
+  display: flex;
+}
+
+.cover_input_tab input {
+  width: 100%;
+}
+
+.dash {
+  position: absolute;
+  color: #666666;
+  left: 97%;
+  bottom: 25%;
+}
+
+.cover_input_tab input:first-child {
+  /* border-right: unset; */
+  border-radius: 4px;
+}
+
+.cover_input_tab input:last-child {
+  /* border-left: unset; */
+  border-radius: 4px;
+  /* O */
+  /* border-right: 1px solid #CED4DA; */
+}
+
+.title_input02 {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #6d6d6d;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.cover_checkbox_style {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: calc(100% / 2);
+  height: 48px;
+  line-height: 48px;
+  padding: 0px 11px;
+}
+
+.checkbox_style {
+  vertical-align: middle;
+  width: 19px;
+  height: 19px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.label_checkbox {
+  font-size: 15px;
+  color: #495057;
+}
+
+.cover_checkbox_style {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: calc(100% / 2 - 12px);
+  height: 48px;
+  line-height: 48px;
+  padding: 0px 11px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.cover_checkbox_style:nth-child(odd) {
+  margin-right: 12px;
+}
+
+.cover_checkbox_style:nth-child(even) {
+  margin-left: 12px;
+}
+
+/* ----------------- */
+
+/* page đăng kí bước 2 - tải ảnh đại diện lên */
+
+.main_cover_avatar {
+  width: 480px;
+  margin: auto;
+}
+
+.cover_avatar {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.upload_avatar {
+  float: left;
+  width: 100%;
+}
+
+
+
+.img_choose_avatar {
+  width: 128px;
+  height: 128px;
+}
+
+.text_avatar {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #333333;
+  margin-top: 5px;
+}
+
+.text_avatar span {
+  color: #ff0000;
+}
+
+.btn_avatar {
+  float: left;
+  width: 100%;
+  margin: 25px 0px;
+}
+
+.tro_lai {
+  width: 48%;
+  height: 43px;
+  line-height: 43px;
+  text-align: center;
+  display: block;
+  background: #ffffff;
+  border: 1px solid #4c5bd4;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #4c5bd4;
+  float: left;
+}
+
+.btn_dang_ky {
+  background: #4c5bd4;
+  border-radius: 3px;
+  border: unset;
+  width: 48%;
+  height: 43px;
+  line-height: 43px;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  float: right;
+}
+
+.text_avatar_02 {
+  float: left;
+  width: 100%;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 167.69%;
+  text-align: center;
+  color: #333333;
+}
+
+.text_avatar_02 span {
+  color: #4c5bd4;
+}
+
+/* page đăng kí thành công */
+
+.img_register {
+  width: 66px;
+  height: 66px;
+}
+
+.title_rgt_sc {
+  font-weight: 500;
+  font-size: 26px;
+  color: #444444;
+  margin: 15px 0px;
+}
+
+.text_p_rgt_sc,
+.text_p_fg_pass {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #666666;
+  float: left;
+  width: 100%;
+}
+
+.popup_login,
+.update_pass {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #4c5bd4;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 25px;
+  float: left;
+  border: none;
+}
+
+.update_pass {
+  margin-top: 20px;
+}
+
+/* page quên mật khẩu */
+
+.title_forgot_pass {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 167.69%;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 20px;
+}
+
+.text_p_fg_pass {
+  color: #444444;
+}
+
+.forgot_style,
+.xac_thuc_style {
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  padding: 0px 20px;
+}
+
+.ic_phone {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input_forgot {
+  display: inline-block;
+  border: unset;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  color: #666666;
+  line-height: 30px;
+  margin-left: 25px;
+  /* width: calc(100% - 16px - 30px); */
+  width: 80%;
+}
+
+#email.input_forgot {
+  width: 100%;
+  margin: 0;
+}
+
+/* page cập nhật mật khẩu */
+
+/* page xác thực mật khẩu */
+
+.xac_thuc_style {
+  margin-top: 15px;
+}
+
+.text_update_pass {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ic_home {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text_p_ud_pass {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+  vertical-align: middle;
+}
+
+.color_4c {
+  color: #4c5bd4;
+}
+
+.color_fa {
+  color: #ffa12b;
+}
+
+/* ---------------------------------------------------------- */
+
+/* page trang chủ */
+
+.img_border {
+  border-radius: 3px;
+}
+
+/* sửa lại phần cover_job, job */
+
+.cover_background {
+  background: url("/banner_home_1366.webp") no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  width: 100%;
+}
+
+.container_relative {
+  position: relative;
+}
+
+.banner_home {
+  width: 100%;
+  position: absolute;
+  top: 230px;
+}
+
+.title_home {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.cover_search {
+  max-width: 730px;
+  padding: 15px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 40px;
+  height: 80px;
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+}
+
+.main_search {
+  float: left;
+  width: 100%;
+  height: 50px;
+  /* overflow: hidden; */
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 5%);
+  border-radius: 30px;
+}
+
+.cover_input_search {
+  float: left;
+  height: 100%;
+  margin-left: 25px;
+  line-height: 50px;
+}
+
+.cover_input_search,
+.cover_select_search {
+  width: calc(100% / 3 - 30px - 2px);
+}
+
+.input_search {
+  border: unset;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  /* border-right: 0.5px solid #666666; */
+  width: 100%;
+}
+
+.cover_select_search {
+  float: left;
+  height: 100%;
+  line-height: 50px;
+}
+
+.line {
+  height: 22px;
+  float: left;
+  width: 1px;
+  background: #666666;
+  margin-top: 14px;
+}
+
+.cover_select_search span.select2 {
+  width: 100% !important;
+}
+
+.btn_search {
+  float: right;
+  height: 100%;
+  width: 65px;
+  background: #f9ab00;
+  border-radius: 0px 50px 50px 0;
+}
+
+.btn_search button {
+  border: unset;
+  height: 100%;
+  cursor: pointer;
+  width: 100%;
+  background: unset;
+}
+
+.btn_search button img {
+  position: relative;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.span_search {
+  display: none;
+}
+
+.nganh_nghe_noi_bat {
+  max-width: 730px;
+  margin: auto;
+  /* height: 100%; */
+  margin-top: 30px;
+}
+
+.p_nganh_nghe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.list_nganh_nghe {
+  width: 100%;
+  float: left;
+}
+
+.it_nganh_nghe {
+  width: calc(100% / 5 - 20px);
+  text-align: center;
+  background: rgba(159, 169, 184, 0.25);
+  border-radius: 20px;
+  padding: 20px 15px;
+  float: left;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.img_nganh_nghe {
+  width: 30px;
+  height: 30px;
+}
+
+.it_nganh_nghe p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* việc làm theo ngành nghề */
+
+.cover_item_home {
+  float: left;
+  width: 100%;
+  background: #f6f7fc;
+}
+
+.cover_job {
+  float: left;
+  width: 100%;
+  padding: 120px 0px;
+}
+
+.job {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.title_h2_job {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text_p_job {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #444444;
+  font-weight: normal;
+}
+
+.cover_it_job {
+  float: left;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.item_job {
+  float: left;
+  width: calc(100% / 4 - 20px);
+  margin: 0px 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  height: 215px;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img_item_job {
+  width: 50px;
+  height: 50px;
+}
+
+.text_item_job {
+  margin-top: 30px;
+}
+
+.h3_text_it {
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.p_text_it {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #666666;
+  font-weight: normal;
+}
+
+/* việc làm theo dự án */
+
+.slick-list.draggable {
+  width: calc(100% - 48px - 48px);
+  margin: auto;
+}
+
+.cover_item02_home {
+  float: left;
+  width: 100%;
+  background: #fff;
+}
+
+.see_all {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration-line: underline;
+  color: #444444;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.ic_right {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px;
+}
+
+.job02 {
+  width: 80%;
+  margin: auto;
+}
+
+.img_top {
+  width: 360px;
+  height: 186px;
+}
+
+.ic_home {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.list_vieclamduan {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: auto !important;
+}
+
+.item_duan {
+  margin: 0px 17px;
+  display: flex !important;
+  flex: 1;
+  flex-direction: column;
+}
+
+.content_it_duan {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.content_it_top {
+  float: left;
+  width: 100%;
+  height: 171px;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.img_top {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  border-radius: inherit;
+}
+
+.bg_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: inherit;
+  top: 0;
+  background: linear-gradient(360deg, #0c0c0c 0%, rgba(0, 0, 0, 0) 42%);
+}
+
+.cover_user {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.img_user {
+  border: 1px solid #d9d9d9;
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  display: inline-block !important;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+.name_user {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.content_it_bottom {
+  flex: 1;
+  float: left;
+  width: 100%;
+  border-top: unset;
+  border: 1px solid #dddddd;
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px;
+  height: auto;
+  overflow: hidden;
+}
+
+.title_content_it {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c5bd4;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-transform: capitalize;
+}
+
+.it_min {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+}
+
+.it_min_left {
+  float: left;
+}
+
+.it_min_right {
+  float: right;
+}
+
+.text_p_it_bottom {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  float: left;
+  width: 100%;
+  min-height: 50px;
+}
+
+.slick-prev {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: -5%;
+  top: 50%;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.slick-next {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: -5%;
+  top: 50%;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.price_tag {
+  cursor: pointer;
+  float: left;
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background: #4c5bd4;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* việc làm bán thời gian */
+
+.item_job02 {
+  float: left;
+  width: 100%;
+  background: beige;
+  padding: 35px;
+}
+
+.item_job02:nth-child(odd) {
+  background: #ffffff;
+}
+
+.item_job02:nth-child(even) {
+  background: #fafafa;
+}
+
+.item_job02:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.item_job02:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.text_item_job_02 {
+  float: left;
+  margin-left: 25px;
+  width: calc(100% - 28px - 250px - 91px);
+}
+
+.h3_text_it_02 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4c5bd4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.info_user_job02 {
+  clear: both;
+  /* margin-bottom: 10px; */
+  /* 220407 */
+  /* float: left; */
+  /* display: flex; */
+  align-items: center;
+}
+.text_content_it01 span {
+  display: inline-block;
+}
+.text_content_it01 span:first-child {
+  width: 165px;
+  float: left;
+}
+
+.img_user_job02 {
+  width: 91px;
+  height: 91px;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  float: left;
+  object-fit: cover;
+}
+
+.it_info_user {
+  align-items: center;
+  display: inline-block;
+  /* display: flex; */
+  margin-right: 25px;
+  white-space: nowrap;
+  margin-top: 6px;
+}
+
+.it_info_user img {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.it_info_user span {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #777777;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+.tag_nganh_nghe {
+  float: left;
+  clear: both;
+}
+
+.it_tag_nganh_nghe {
+  background: #e4e6f9;
+  /* border: 0.5px solid #E0E0E0; */
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: inline-block;
+  height: 27px;
+  line-height: 27px;
+  padding: 0px 15px;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #4c5bd4;
+  margin-bottom: 5px;
+}
+
+.btn_right_home {
+  float: right;
+  width: 250px;
+  text-align: center;
+}
+
+.dat_gia {
+  cursor: pointer;
+  text-align: center;
+  background: #4c5bd4;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.gia {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 153.69%;
+  color: #777777;
+  text-align: center;
+}
+
+/* việc làm theo địa điểm */
+
+.list_diadiemviec {
+  float: left;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.item_diadiem {
+  width: calc(100% / 4 - 18px);
+  margin: 0px 9px;
+  float: left;
+  position: relative;
+  height: 360px;
+}
+
+.img_vieclam {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.text_vieclam {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.text01_vieclam {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.text02_vieclam {
+  height: 28px;
+  line-height: 28px;
+  padding: 0px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #333333;
+}
+
+/* ---------------------- */
+
+/* page danh sách freelancer */
+
+.banner_list_freelancer {
+  width: 100%;
+  height: 369px;
+  background: url(/banner_list_freelancer_1366.webp) no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  position: relative;
+  z-index: 99;
+}
+
+.relative_banner {
+  position: relative;
+}
+
+.cover_content_banner_freelancer {
+  width: 100%;
+  position: absolute;
+  top: 114px;
+}
+
+.content_banner_freelancer {
+  text-align: center;
+  padding: 35px 0;
+  width: 50%;
+  border-radius: 15px;
+  background: rgba(24, 43, 73, 0.8);
+  margin: auto;
+}
+
+.content_banner_freelancer span {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.0125em;
+  color: #ffffff;
+}
+
+.main_freelancer {
+  float: left;
+  width: 100%;
+  padding: 120px 50px 50px;
+  position: relative;
+}
+
+.main_cover_search {
+  margin-top: 120px;
+}
+
+.bg_f8 {
+  background: #f8f9fc;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+}
+
+.title_freelancer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.title_h1_freelancer {
+  font-family: InterRegular;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #444444;
+  font-weight: 200;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.title_h1_freelancer::after {
+  content: "";
+  display: block;
+  width: 123px;
+  height: 9px;
+  background: url(/img_line.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+
+.text_p_freelancer {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #666666;
+}
+
+.content_freelancer {
+  float: left;
+  width: 100%;
+}
+
+.left_content_freelancer {
+  float: left;
+  width: 70%;
+  margin-right: 40px;
+}
+
+.item_freelancer {
+  float: left;
+  width: 100%;
+  padding: 25px;
+  display: inline-block;
+  background: #ffffff;
+  border: 1px dashed #dddddd;
+  box-sizing: border-box;
+  border-radius: 16px;
+  min-height: 188px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.img_item_user {
+  width: 67px;
+  height: 67px;
+  margin-right: 15px;
+  float: left;
+}
+
+.img_item_user img {
+  border-radius: 4px;
+  width: 67px;
+  height: 67px;
+}
+
+.content_it_freelancer {
+  width: calc(100% - 67px - 15px);
+  float: left;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.name_it_free {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #444444;
+  text-transform: capitalize;
+}
+.check_status {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  margin-left: 8px;
+  background: #e6e6e6;
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+
+.text_save_it {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #444444;
+}
+
+.text_save_it span {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #444444;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text_save_it img {
+  width: 17px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text_career {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #4c5bd4;
+  float: left;
+  padding-right: 10px;
+}
+
+.location_it_free {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  color: #666666;
+}
+
+.location_it_free span {
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.text_content_it01 {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  color: #777777;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+  /* margin-top: 5px; */
+}
+
+.text_content_it {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666666;
+  margin: 5px 0;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.cover_see_more {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.btn_see_more {
+  height: 46px;
+  line-height: 46px;
+  width: 40%;
+  text-align: center;
+  border: unset;
+  background: #4c5bd4;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.right_content_freelancer {
+  float: right;
+  width: calc(100% - 70% - 40px);
+}
+
+.it_right_free {
+  float: left;
+  width: 100%;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 10px rgb(68 68 68 / 10%);
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.p_it_right {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  color: #444444;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.p_it_right::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #4c5bd4;
+  bottom: 0;
+  left: 0;
+}
+
+.list_item_checkbox {
+  margin-top: 20px;
+  overflow: hidden;
+  max-height: 320px;
+  overflow-y: scroll;
+}
+
+.list_item_checkbox::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.list_item_checkbox::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+.list_item_checkbox::-webkit-scrollbar-thumb {
+  background-color: #0ae;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    color-stop(0.5, rgba(255, 255, 255, 0.2)),
+    color-stop(0.5, transparent),
+    to(transparent)
+  );
+}
+
+.item_checkbox {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: #666666;
+  padding: 16px 0px;
+  border-bottom: 1px dashed #dddddd;
+}
+
+.item_checkbox:first-child {
+  border-top: 1px dashed #dddddd;
+}
+
+.checkbox_style {
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 0px;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+/* page việc làm freelencer theo dự án + việc làm freelancer bán thời gian */
+
+.freelancer_job_left {
+  box-shadow: 0px 0px 10px rgb(68 68 68 / 10%);
+  border-radius: 16px;
+}
+
+.freelancer_job_left .item_job02 {
+  border-bottom: 1px dashed #dddddd;
+}
+
+.nothing {
+  float: left;
+  width: 100%;
+  padding: 30px 50px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/* page chi tiết việc làm */
+
+.ic_home01green {
+  width: 13px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.color_06 {
+  color: #666666;
+}
+
+.bottom_unset {
+  border-bottom: unset !important;
+}
+
+/* đoạn này là dùng chung cho 2 page chi tiết việc làm và chi tiết freelancer nhé!!! */
+
+.cover_job_detail {
+  margin: 50px 0;
+  float: left;
+  width: 100%;
+}
+
+.job_detail_top {
+  float: left;
+  width: 100%;
+  border-bottom: 1px dotted #000000;
+  padding-bottom: 25px;
+}
+
+.left_detail_top {
+  float: left;
+  width: 75%;
+}
+
+.logo_job_detail {
+  width: 113px;
+  height: 113px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.cover_text_job_dt {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  width: calc(100% - 113px - 25px);
+}
+
+.title_job_dt {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #444444;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.info_ntd {
+  margin: 10px 10px 0px 0px;
+}
+
+.text_p_info_job {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696;
+}
+
+.ic_01 {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.location_job_dt {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.right_detail_top {
+  float: right;
+  width: 25%;
+}
+
+.lien_he {
+  /* width: 175px; */
+  height: 45px;
+  display: block;
+  line-height: 45px;
+  text-align: center;
+  background: #febe42;
+  border: 1px solid #febe42;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgb(102 103 107 / 15%);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  /* margin: 0 auto 15px; */
+  cursor: pointer;
+}
+
+.job_detail_bottom {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.left_job_bottom {
+  float: left;
+  width: 60%;
+}
+
+.it_left_jb_bt {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.text_p_info {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.003em;
+  color: #666666;
+  margin-top: 20px;
+  word-break: break-all;
+}
+
+.tag_skill {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.it_skill {
+  display: inline-block;
+  padding: 6px 20px;
+  background: #e7f1ff;
+  opacity: 0.75;
+  border-radius: 8px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #444444;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.thong_tin_dat_gia {
+  float: left;
+  width: 100%;
+  background: #182b49;
+  border-radius: 10px;
+  padding: 40px 60px;
+  margin-top: 20px;
+}
+
+.p_dat_gia {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.003em;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.input_dat_gia {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 47px;
+  font-size: 16px;
+  line-height: 153.69%;
+  color: #444;
+  padding: 0px 20px;
+  float: left;
+}
+
+.button_dat_gia {
+  cursor: pointer;
+  width: 100%;
+  background: #febe42;
+  border-radius: 10px;
+  border: unset;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  height: 47px;
+  line-height: 47px;
+  margin-top: 10px;
+}
+
+.cover_list_dat_gia {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.item_dat_gia {
+  float: left;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.img_item_dat_gia {
+  width: 51px;
+  height: 51px;
+  margin-right: 15px;
+  float: left;
+}
+
+.img_item_dat_gia img {
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.item_dat_gia_left {
+  display: inline-block;
+  width: calc(100% - 30% - 29px);
+  vertical-align: middle;
+  border-right: 1px solid #efefef;
+}
+
+.item_dat_gia_right {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+.p01_right_dat_gia {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #f81c1c;
+  margin-bottom: 15px;
+}
+
+.p02_right_dat_gia {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.danh_gia_sao {
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.diem_sao {
+  background: #febe42;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 2px 3px;
+  float: left;
+}
+
+.cover_star_dat_gia {
+  float: left;
+  width: 75%;
+  height: 21px;
+  background: pink;
+  margin-left: 5px;
+  position: relative;
+}
+
+.yellow_star_dat_gia {
+  width: 100%;
+  height: 100%;
+  background: #f9ab00;
+}
+
+.ratting_star_dat_gia {
+  background: url(/star.png) no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  width: 100%;
+  height: 22px;
+  position: absolute;
+  top: 0;
+}
+
+.p_it_dat_gia {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.003em;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.xem_them_dat_gia {
+  float: left;
+  width: 100%;
+  background: #4c5bd4;
+  border-radius: 10px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* page chi tiết freelancer */
+
+.luu_ct {
+  display: block;
+  /* width: 175px; */
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgb(102 103 107 / 15%);
+  border-radius: 10px;
+  background: #fff;
+  font-weight: normal;
+  font-size: 16px;
+  color: #666666;
+  cursor: pointer;
+  /* margin: 0 auto; */
+}
+
+.ic_02 {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.it_skill span {
+  vertical-align: middle;
+  word-break: break-all;
+}
+
+.cover_img_file {
+  float: left;
+  width: 100%;
+  height: 286px;
+  margin-top: 20px;
+}
+
+.cover_file_left {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.cover_file_left img {
+  border-radius: 3px;
+}
+
+.cover_file_right {
+  float: right;
+  width: calc(100% - 60% - 5px);
+  height: 100%;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.cover_file_right img {
+  width: 100%;
+  height: calc(100% / 2 - 10px);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.ic_03 {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.right_job_bottom {
+  float: right;
+  width: calc(100% - 60% - 50px);
+}
+
+.it_right_job_bt {
+  float: left;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.p_it_right_bt {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: 0.003em;
+  color: #444444;
+}
+
+.bg_FAFDFF {
+  background: #fafdff;
+}
+
+.cover_list_job_bt {
+  float: left;
+  width: 100%;
+  padding: 0px 20px;
+  /* background: #FFFFFF; */
+  border: 2px solid #efefef;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.it_jb_bt {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  padding: 15px 0;
+}
+
+.it_jb_bt:last-child {
+  border-bottom: unset;
+}
+
+.ic_04 {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.text_it_jb_left {
+  font-weight: normal;
+  font-size: 15px;
+  color: #666666;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text_it_jb_right {
+  float: right;
+  font-weight: normal;
+  font-size: 15px;
+  color: #666666;
+}
+
+/* a.text_it_jb_right {
+    text-decoration: underline;
+} */
+
+.xem_lien_he {
+  cursor: pointer;
+}
+
+.cover_star {
+  float: right;
+  width: 170px;
+  height: 24px;
+  /* position: relative; */
+  top: 12px;
+}
+
+.yellow_star {
+  width: 100%;
+  height: 100%;
+  background: #f9ab00;
+}
+
+.ratting_star {
+  background: url(/star.png) no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  width: 100%;
+  height: 24px;
+  position: absolute;
+  top: 0;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+div#circle {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  margin: 20px auto;
+}
+
+.foreground-circle {
+  stroke: #4c5bd4 !important;
+}
+
+.background-circle {
+  stroke: #dde6f1 !important;
+}
+
+.circle-text {
+  display: none;
+}
+
+.text_chart {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 153.69%;
+  text-align: center;
+  color: #4c5bd4;
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  width: 60px;
+}
+
+.p_chart {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 153.69%;
+  text-align: center;
+  color: #666666;
+}
+
+/* danh sách đăng tin */
+
+.cover_post {
+  float: left;
+  width: 100%;
+  /* margin-top: 15px; */
+}
+
+.it_post {
+  float: left;
+  width: 100%;
+  padding: 25px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.cover_logo_td {
+  width: 157px;
+  height: 98px;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  float: left;
+  margin-right: 25px;
+}
+
+.cover_logo_td img {
+  object-fit: cover;
+}
+
+.cover_it_post {
+  float: left;
+  width: calc(100% - 157px - 25px);
+}
+
+.cover_content_td {
+  float: left;
+}
+
+.title_td {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #444444;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.time_td {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 153.69%;
+  text-align: center;
+  padding: 2px 15px;
+  background: #4c5bd42e;
+  opacity: inherit;
+  border-radius: 3px;
+  color: #4c5bd4;
+}
+
+.hr_td {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.ic_10 {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.text_01 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #666666;
+}
+
+.ic_location_td {
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.cover_btn_td {
+  float: right;
+  /* background: pink; */
+  height: 98px;
+  line-height: 98px;
+}
+
+.btn_td01 {
+  background: #4c5bd4;
+  border: 1px solid #4c5bd4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  min-width: 165px;
+  padding: 0 10px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.btn_td02 {
+  border: 1px solid #4c5bd4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  color: #4c5bd4;
+  width: 165px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.cover_xt {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nut_xem_them {
+  background: #4c5bd4;
+  border-radius: 10px;
+  width: 25%;
+  height: 46px;
+  display: block;
+  margin: auto;
+  line-height: 46px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* page đăng dự án */
+
+.banner_project {
+  width: 100%;
+  height: 588px;
+  background-image: url(/bg_prj.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.text_banner_prj {
+  max-width: 510px;
+  /* O 220407 */
+  margin-right: 20px;
+  /* float: left; */
+  /* position: absolute; */
+  /* top: 32%; */
+  /* left: 6%; */
+}
+
+.title_banner_prj {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #444444;
+  position: relative;
+}
+
+.title_banner_prj::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #106fde;
+  left: 0;
+  bottom: 0;
+}
+
+.p01_banner {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #666666;
+  margin-top: 20px;
+}
+
+.cover_btn_banner {
+  float: left;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.dv_ban_tg {
+  background: #4c5bd4;
+  border-radius: 5px;
+  height: 48px;
+  line-height: 48px;
+  /* display: inline-block; */
+  float: left;
+  width: 48%;
+  text-align: center;
+}
+
+.ic_14 {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dv_ban_tg span {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dv_du_an {
+  float: right;
+  width: 48%;
+  background: #ffffff;
+  border: 1px solid #4c5bd4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.dv_du_an span {
+  font-weight: 500;
+  font-size: 17px;
+  color: #4c5bd4;
+}
+
+.bg_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+  background: #f3f6f9;
+}
+
+.cover_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+}
+
+.main_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+  margin: 100px 0px;
+  /* O */
+}
+
+.text_freelancere_nganh_nghe {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.h2_frelancer_nganh_nghe {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #444444;
+  margin-bottom: 10px;
+}
+
+.text_p_freelancer_nganh_nghe {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #666666;
+}
+
+.list_freelancer_nganh_nghe {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 20px; */
+}
+
+.item_freelancer_nganh_nghe {
+  width: calc(100% / 3 - 40px);
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 50px;
+  border-bottom: transparent 4px solid;
+}
+
+.item_freelancer_nganh_nghe:hover {
+  border-bottom: 4px solid #4c5bd4;
+}
+
+.ic_15 {
+  width: 58px;
+  height: 58px;
+}
+
+.h3_freelancer_nganh_nghe {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #38475a;
+}
+
+.p_item_freelancer_nganh_nghe {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+  margin-top: 20px;
+}
+
+.a_item_freelancer_nganh_nghe {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.a_item_freelancer_nganh_nghe span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  color: #4c5bd4;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ic_18 {
+  width: 14px;
+  height: 11px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cover_sub_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+}
+
+.main_sub_freelancer_nganh_nghe {
+  width: 75%;
+  margin: auto;
+}
+
+.sub_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+  margin: 35px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_dang_du_an01 {
+  width: 200px;
+  height: 156px;
+}
+
+.img_dang_du_an02 {
+  width: 145px;
+  height: 150px;
+}
+
+.cover_text_nn {
+  width: 80%;
+}
+
+.p1_text_nn {
+  font-weight: normal;
+  font-size: 23px;
+  color: #444444;
+  background: #d7e8fc;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  text-align: center;
+  line-height: 39px;
+  float: left;
+  margin-right: 10px;
+}
+
+.main_text_nn {
+  float: right;
+  width: calc(100% - 49px);
+}
+
+.p01_main_text_nn {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 26px;
+  color: #444444;
+  margin-bottom: 16px;
+}
+
+.p02_main_text_nn {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+
+.btn_dang_viec_ngay {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.dang_viec_ngay {
+  background: #4c5bd4;
+  border-radius: 10px;
+  width: 219px;
+  margin: 50px auto;
+  height: 48px;
+  line-height: 48px;
+}
+
+.ic_dang_viec {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dang_viec_ngay span {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* page hướng dẫn freelancer */
+
+.banner_dang_viec {
+  width: 100%;
+  height: 306px;
+  background-image: url(/banner_dang_viec_1366.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+}
+
+.cover_content_banner_dang_viec {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+
+.content_banner_dang_viec {
+  text-align: center;
+  width: 40%;
+  border-radius: 15px;
+  background: rgba(24, 43, 73, 0.8);
+  padding: 35px 0px;
+  margin: auto;
+}
+
+.content_banner_dang_viec span {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.0125em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* page hướng dẫn */
+
+.cover_tutorial {
+  float: left;
+  width: 100%;
+}
+
+.title_tutorial {
+  font-weight: 500;
+  font-size: 28px;
+  color: #182b49;
+  text-align: center;
+  line-height: 70px;
+  position: relative;
+  background: url(/gach_tit.png) no-repeat 50% 100%;
+}
+
+.cover_it_tutorial {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.margin_100 {
+  margin: 100px 0px;
+}
+
+.main_it_tutorial {
+  width: 60%;
+  margin: auto;
+}
+
+.it_tutorial {
+  float: left;
+  width: calc(100% / 3 - 50px);
+  margin: 0px 25px;
+  text-align: center;
+}
+
+.cover_ic_tutorial01 {
+  margin: auto;
+  background: #4c5bd4;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 24px;
+  box-shadow: 0px 32px 54px rgb(37 138 255 / 22%);
+  margin-bottom: 20px;
+}
+
+.ic_tutorial01 {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title_it_tutorial {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #444444;
+  margin-bottom: 10px;
+}
+
+.p_tutorial {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  color: #666666;
+}
+
+.main_it_tutorial02 {
+  width: 100%;
+  margin: auto;
+}
+
+.item_tutorial {
+  float: left;
+  width: 100%;
+  margin: 100px 0;
+}
+
+.main_it_tutorial_cover {
+  width: calc(100% / 2 - 2px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cover_text_it01 {
+  width: 80%;
+}
+
+.img_tutorial01 {
+  width: 553px;
+  height: 280px;
+}
+
+.img_tutorial02 {
+  width: 555px;
+  height: 360px;
+}
+
+.img_tutorial03 {
+  width: 530px;
+  height: 240px;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 5%);
+  border-radius: 15px;
+}
+
+.title_item_tutorial {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #444444;
+  margin-bottom: 15px;
+}
+
+.p_b1_tutorial {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160.19%;
+  color: #666666;
+}
+
+.p_b1_tutorial span {
+  color: #f8971c;
+}
+
+.p_b02_tutorial {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160.19%;
+  color: #444444;
+  margin-bottom: 10px;
+}
+
+.p02_b02_tutorial {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160.19%;
+  color: #666666;
+}
+
+.sub_tutorial01 {
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.sub_tutorial02 {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+.main_it_tutoria_center {
+  float: left;
+  width: 52px;
+  height: inherit;
+  position: absolute;
+  text-align: center;
+  left: 48%;
+}
+
+.number_center {
+  background: #4c5bd4;
+  border-radius: 50%;
+  padding: 14px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  box-shadow: 0px 32px 54px rgb(37 138 255 / 22%);
+  height: 52px;
+}
+
+.line_dashed {
+  width: 50%;
+  border-right: 1.5px dashed #444444;
+}
+
+.height_01 {
+  height: 23%;
+}
+
+.height_02 {
+  height: 44%;
+}
+
+.height_03 {
+  height: 22%;
+}
+
+ul.list_item_checkbox.hide {
+  display: none;
+}
+
+/* .info_uv{
+    resize: none;
+    border: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.003em;
+    color: #666666;
+    margin-top: 20px;
+    width: 100%;
+} */
+
+@media only screen and (min-width: 1520px) {
+  /* page đăng kí */
+  .banner {
+    height: 275px;
+    background: url(/banner_1520.webp) no-repeat;
+    background-size: 100% 100%;
+  }
+  .cover_content_banner_both {
+    top: 90px;
+  }
+  .content_banner {
+    width: 45%;
+  }
+  /* page trang chủ */
+  .cover_background {
+    background: url("/banner_home_1520.webp") no-repeat;
+    background-size: 100% 100%;
+  }
+  /* page danh sách freelancer */
+  .banner_list_freelancer {
+    width: 100%;
+    height: 402px;
+    background: url(/banner_list_freelancer_1520.webp) no-repeat;
+    background-size: 100% 100%;
+  }
+  .cover_content_banner_freelancer {
+    top: 135px;
+  }
+  .main_cover_search {
+    margin-top: 135px;
+  }
+  /* banner page hướng dẫn - freelancer */
+  .banner_dang_viec {
+    width: 100%;
+    height: 340px;
+    background-image: url("/banner_dang_viec_1520.png");
+  }
+  .main_it_tutorial02 {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* đăng kí */
+  .banner {
+    height: 275px;
+    background: url(/banner_1024.webp) no-repeat;
+    background-size: 100% 100%;
+  }
+  .cover_content_banner_both {
+    top: 90px;
+  }
+  .content_banner {
+    width: 50%;
+  }
+  .cover_register_both {
+    width: 70%;
+    margin: auto;
+  }
+  /* trang chủ */
+  .banner_home {
+    top: 155px;
+  }
+  .cover_background {
+    background: url("/banner_home_1024.webp") no-repeat;
+    background-size: 100% 100%;
+    height: 670px;
+  }
+  .job {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .cover_job {
+    padding: 90px 0;
+  }
+  .item_job {
+    padding: 30px 10px;
+  }
+  .it_min_left {
+    float: unset;
+  }
+  .it_min_right {
+    float: unset;
+  }
+  .slick-prev {
+    top: 45%;
+    left: 0;
+  }
+  .slick-next {
+    top: 45%;
+    right: 0;
+  }
+  /* page danh sách freelancer */
+  .banner_list_freelancer {
+    width: 100%;
+    height: 369px;
+    background: url(/banner_list_freelancer_1024.webp) no-repeat;
+    background-size: 100% 100%;
+  }
+  .main_freelancer {
+    padding: 85px 20px 50px;
+  }
+  .title_freelancer {
+    margin-bottom: 50px;
+  }
+  /* page chi tiết freelancer và chi tiết việc làm */
+  .cover_job_detail {
+    margin: 30px 0;
+  }
+  .cover_img_file {
+    height: 215px;
+  }
+  /* banner page hướng dẫn - freelancer */
+  .banner_dang_viec {
+    width: 100%;
+    height: 320px;
+    background-image: url("/banner_dang_viec_1024.png");
+  }
+  .content_banner_dang_viec {
+    width: 50%;
+  }
+  .cover_it_tutorial {
+    padding: 0px 50px;
+  }
+  .main_it_tutorial {
+    width: 90%;
+  }
+  .it_tutorial {
+    width: calc(100% / 3 - 40px);
+    margin: 0px 20px;
+  }
+  .img_tutorial01 {
+    width: 345px;
+    height: 175px;
+  }
+  .img_tutorial02 {
+    width: 336px;
+    height: 220px;
+  }
+  .img_tutorial03 {
+    width: 312px;
+    height: 139px;
+  }
+  .height_01 {
+    height: 18%;
+  }
+  .height_02 {
+    height: 54%;
+  }
+  .height_03 {
+    height: 16%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* đăng kí */
+  .banner {
+    height: 275px;
+    background: url(/banner_768.webp) no-repeat;
+    background-size: 100% 100%;
+  }
+  .cover_register_both {
+    width: 90%;
+    margin: auto;
+  }
+  .content_banner {
+    width: 65%;
+  }
+  /* page trang chủ */
+  .banner_home {
+    top: 145px;
+  }
+  .cover_background {
+    background: url("/banner_home_768.webp") no-repeat;
+    background-size: 100% 100%;
+    height: 670px;
+  }
+  .item_job {
+    width: calc(100% / 3 - 20px);
+  }
+  /* page danh sách freelancer */
+  .banner_list_freelancer {
+    width: 100%;
+    height: 317px;
+    background: url(/banner_list_freelancer_768.webp) no-repeat;
+    background-size: 100% 100%;
+  }
+  .content_banner_dang_viec {
+    width: 65%;
+  }
+  .cover_content_banner_freelancer {
+    top: 90px;
+  }
+  .main_cover_search {
+    margin-top: 90px;
+  }
+  .bg_f8 {
+    width: 85%;
+  }
+  .main_freelancer {
+    padding: 80px 20px 50px;
+  }
+  .left_content_freelancer {
+    width: 100%;
+    margin-right: unset;
+  }
+  .right_content_freelancer {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .right_detail_top {
+    width: 28%;
+  }
+  .left_detail_top {
+    width: 72%;
+  }
+  /* page chi tiết freelancer và page chi tiết việc làm */
+  .left_job_bottom {
+    width: 100%;
+  }
+  .right_job_bottom {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .cover_img_file {
+    height: 292px;
+  }
+  /* page danh sách đăng tin */
+  .cover_btn_td {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    height: auto;
+    line-height: unset;
+  }
+  /* banner page hướng dẫn - freelancer */
+  .banner_dang_viec {
+    width: 100%;
+    height: 240px;
+    background-image: url("/banner_dang_viec_768.png");
+  }
+  .cover_it_tutorial {
+    padding: 0px 15px;
+  }
+  .main_it_tutorial {
+    width: 100%;
+  }
+  .height_01 {
+    height: 19%;
+  }
+  .ic_14 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  /* đăng kí */
+  .banner {
+    height: 275px;
+    background: linear-gradient(360deg, #0c0c0c 0%, rgba(0, 0, 0, 0) 100%);
+    background-size: 100% 100%;
+  }
+  .content_banner {
+    width: 90%;
+  }
+  .it_rgt_top {
+    width: 100%;
+    margin: unset;
+  }
+  .it_rgt_top:first-child {
+    margin-bottom: 20px;
+  }
+  .cover_checkbox_style {
+    width: 100%;
+  }
+  .cover_checkbox_style:nth-child(odd) {
+    margin-right: unset;
+  }
+  .cover_checkbox_style:nth-child(even) {
+    margin-left: unset;
+  }
+  /* page đăng kí bước 2 - tải ảnh đại diện */
+  .main_cover_avatar {
+    width: 95%;
+    margin: auto;
+  }
+  /* page trang chủ */
+  .cover_background {
+    background: #192ba0;
+    background-size: 100% 100%;
+    height: 400px;
+  }
+  .banner_home {
+    top: 100px;
+  }
+  .title_home {
+    display: none;
+  }
+  .nganh_nghe_noi_bat {
+    display: none;
+  }
+  .cover_search {
+    background: unset;
+    padding: 0px 30px;
+  }
+  .main_search {
+    height: auto;
+    overflow: unset;
+    background: unset;
+  }
+  .cover_input_search,
+  .cover_select_search {
+    width: 100%;
+    margin-left: unset;
+    margin-bottom: 20px;
+  }
+  .input_search {
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 10px;
+    background: unset;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+  }
+  .input_search::placeholder {
+    color: #fff;
+  }
+  .cover_job {
+    padding: 80px 0 65px;
+  }
+  .job {
+    padding: 0 32px;
+  }
+
+  .text_p_job {
+    line-height: 10px;
+    font-size: 16px;
+  }
+  .cover_it_job {
+    margin-top: 24px;
+  }
+  .cover_it_job_fix {
+    margin-top: 60px !important;
+  }
+  .job_fix {
+    padding: 0 20px !important;
+  }
+  .line {
+    display: none;
+  }
+  .cover_select_search {
+    line-height: unset;
+  }
+  .slick-list.draggable {
+    width: unset;
+  }
+  .item_duan {
+    margin: 0 10px;
+  }
+  .main_search .select2-container--default .select2-selection--single {
+    height: 45px !important;
+  }
+  .cover_select_search .select2-selection__rendered {
+    line-height: 45px !important;
+  }
+  .cover_select_search .select2-selection__arrow {
+    top: 10px !important;
+  }
+  .btn_search {
+    height: 45px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .btn_search button img {
+    display: none;
+  }
+  .span_search {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    display: block;
+  }
+  .item_job {
+    width: 80%;
+    margin: 0px auto 25px;
+    padding: 30px;
+    float: unset;
+  }
+  .item_job02 {
+    padding: 30px 20px;
+  }
+  .img_user_job02 {
+    display: none;
+  }
+  .text_item_job_02 {
+    width: 100%;
+    margin-left: unset;
+  }
+  .btn_right_home {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .dat_gia {
+    float: left;
+    margin-right: 20px;
+  }
+  .gia {
+    float: left;
+    width: auto;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .it_info_user {
+    width: 100%;
+    margin-right: unset;
+    margin-bottom: 10px;
+  }
+  .h3_text_it_02 {
+    margin-bottom: 5px;
+  }
+  .item_diadiem {
+    width: calc(100% / 2 - 18px);
+    margin-bottom: 25px;
+  }
+  /* page danh sách freelancer */
+  .banner_list_freelancer {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(360deg, #0c0c0c 0%, rgba(0, 0, 0, 0) 100%);
+    background-size: 100% 100%;
+  }
+
+  .cover_container .main_freelancer {
+    visibility: hidden;
+  }
+
+  .cover_content_banner_freelancer {
+    top: 70px;
+  }
+  .content_banner_freelancer {
+    width: 90%;
+  }
+  .main_cover_search {
+    margin-top: 65px;
+  }
+  .main_freelancer {
+    padding: 80px 15px 50px;
+  }
+  .item_freelancer {
+    margin-bottom: 30px;
+  }
+  .text_save_it {
+    top: 0;
+  }
+  .text_save_it > span {
+    display: none;
+  }
+  .text_content_it {
+    margin-top: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  /*  */
+  .info_user_job02 {
+    flex-wrap: wrap;
+  }
+  /* chi tiết việc làm */
+  .thong_tin_dat_gia {
+    padding: 36px;
+  }
+  .logo_job_detail {
+    width: 89px;
+    height: 89px;
+  }
+  .cover_text_job_dt {
+    margin-left: 15px;
+  }
+  .item_dat_gia_left {
+    width: 100%;
+    border-right: unset;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 15px;
+  }
+  .item_dat_gia_right {
+    width: 100%;
+    margin-left: unset;
+    margin-top: 15px;
+  }
+  /* page chi tiết freelancer */
+  .left_detail_top {
+    width: 100%;
+  }
+  .right_detail_top {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .lien_he,
+  .luu_ct {
+    width: 215px;
+    margin-left: auto;
+  }
+  .cover_img_file {
+    height: 140px;
+  }
+  /* page danh sách đăng tin */
+  .cover_logo_td {
+    display: none;
+  }
+  .cover_it_post {
+    width: 100%;
+  }
+  .nut_xem_them {
+    width: 100%;
+  }
+  /* banner page hướng dẫn - freelancer */
+  .banner_dang_viec {
+    width: 100%;
+    height: 210px;
+    background-image: url("/banner_dang_viec_414.png");
+  }
+  .content_banner_dang_viec span {
+    font-size: 24px;
+  }
+  .content_banner_dang_viec {
+    width: 95%;
+  }
+  .sub_tutorial02 {
+    padding: 0px 10px;
+  }
+  .main_it_tutorial {
+    width: 60%;
+  }
+  .it_tutorial {
+    width: 100%;
+    margin: unset;
+    margin-bottom: 70px;
+  }
+  .main_it_tutorial_cover {
+    width: 100%;
+  }
+  .cover_text_it01 {
+    width: 100%;
+  }
+  .mr_540 {
+    margin-bottom: 25px;
+  }
+  .center_540 {
+    text-align: center;
+  }
+  .f_unset {
+    float: unset;
+  }
+  .line_dashed {
+    border: unset;
+  }
+  .main_it_tutoria_center {
+    left: 43%;
+  }
+  .height_01 {
+    height: 23%;
+  }
+  .height_02 {
+    height: 50%;
+  }
+  .height_03 {
+    height: 18%;
+  }
+  .see_all {
+    position: unset;
+    text-align: center;
+    margin-top: 10px;
+  }
+  /*Đăng tin dự án*/
+  .item_freelancer_nganh_nghe,
+  .main_sub_freelancer_nganh_nghe {
+    width: calc(100% - 40px);
+  }
+  .sub_freelancer_nganh_nghe {
+    flex-direction: column;
+  }
+  .sub_freelancer_nganh_nghe:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+  .it_sub_freelancer {
+    text-align: center;
+  }
+  .p01_main_text_nn {
+    font-size: 20px;
+  }
+  .text_freelancere_nganh_nghe {
+    padding: 0 10px;
+  }
+  .banner_project {
+    height: 446px;
+  }
+  .text_banner_prj {
+    position: unset;
+    padding: 81px 15px;
+    margin-right: 0;
+  }
+  .cover_btn_banner {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dv_ban_tg,
+  .dv_du_an {
+    float: unset;
+    width: unset;
+    margin-bottom: 20px;
+  }
+  .title_banner_prj {
+    font-size: 28px;
+  }
+  .img_banner_tin {
+    display: none;
+  }
+  /* -------------------------------- */
+  .item_input {
+    width: calc(100% / 2 - 10px);
+  }
+  .item_input.f_right.custom_price_type {
+    width: 40% !important;
+  }
+  .cover_notifi {
+    width: 370px;
+  }
+}
+/*O 20220406 ------------------------- */
+.flex {
+  display: flex;
+}
+.space {
+  justify-content: space-between;
+}
+.center {
+  align-items: center;
+}
+.position_r {
+  position: relative;
+}
+.text_p_ud_pass .color_4c {
+  opacity: 0.3;
+}
+.c-pointer {
+  cursor: pointer;
+}
+.top-10 {
+  margin-top: 10px;
+}
+.top-7 {
+  margin-top: 7px;
+}
+.color_blue {
+  color: #4c5bd4;
+}
+.custom_price_type label.error,
+.custom_price label.error {
+  top: 42px !important;
+}
+.cover_input_2 label.error {
+  top: 55px !important;
+}
+label#name_file_hsnl_error {
+  top: 85px;
+}
+.register_flc {
+  cursor: pointer;
+}
+#btn-top {
+  display: none;
+}
+.cover_item_home .job {
+  visibility: hidden;
+}

@@ -1,0 +1,2423 @@
+.body{
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.6;
+    font-family: RobotoMedium;
+}
+.cover_container_cover_background {
+  background: url("/banner_home_1520.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+}
+.container_container_relative {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  max-width: 1275px;
+}
+.banner_home {
+  width: 100%;
+  position: absolute;
+  top: 230px;
+}
+.banner_home > h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.main_search {
+  float: left;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+  border-radius: 30px;
+}
+.cover_input_search_autocomplete {
+  position: relative;
+  display: inline-block;
+  width: calc(100% / 3 - 30px - 2px);
+  float: left;
+  height: 100%;
+  margin-left: 25px;
+  line-height: 50px;
+}
+.cover_input_search_autocomplete > input {
+  border: unset;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  width: 100%;
+}
+.line {
+  height: 22px;
+  float: left;
+  width: 2px;
+  background: #666;
+  margin-top: 14px;
+  margin-right: 10px;
+}
+.line1{
+  height: 22px;
+  float: left;
+  width: 2px;
+  background: #666;
+  margin-top: 14px;
+  margin-right: 10px;
+}
+.cover_select_search {
+  float: left;
+  height: 100%;
+  line-height: 50px;
+  width: calc(100% / 3 - 30px - 30px);
+}
+.select_search {
+  width: 100%;
+  border: none;
+}
+.btn_search {
+  float: right;
+  height: 100%;
+  width: 65px;
+  background: #f9ab00;
+  border-radius: 0 50px 50px 0;
+}
+
+.search {
+  border: unset;
+  height: 100%;
+  cursor: pointer;
+  width: 100%;
+  background: unset;
+}
+.search > img {
+  position: relative;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+}
+.cover_search {
+  max-width: 730px;
+  padding: 15px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 40px;
+  height: 80px;
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+}
+.input_abc {
+  outline: unset;
+}
+.nghe_noi_bat {
+  max-width: 730px;
+  margin: auto;
+  margin-top: 30px px;
+}
+.nghe_noi_bat > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.list_nghe {
+  width: 100%;
+  display: flex;
+}
+.it {
+  background: rgba(159, 169, 184, 0.25);
+  border-radius: 20px;
+  padding: 15px 15px;
+  float: left;
+  margin: 0 10px;
+  cursor: pointer;
+  width: calc(100% / 5 - 20px);
+  text-align: center;
+}
+.a_vip > img {
+  width: 30px;
+  height: 30px;
+}
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+.text:hover {
+  border-bottom: transparent 2px solid;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+.banner {
+  width: 100%;
+  height: 242px;
+  background: url(https://freelancer.timviec365.vn/images/banner_1366.png) no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  position: relative
+}
+
+.slick-slide img {
+  border-radius: 10px!important
+}
+
+.content_banner {
+  text-align: center;
+  width: 50%;
+  border-radius: 15px;
+  background: rgba(24,43,73,.8);
+  padding: 35px 0;
+  margin: auto
+}
+
+.content_banner span {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .0125em;
+  color: #fff
+}
+
+#form_register_uv .item_input .select2-container {
+  position: relative
+}
+
+.main_cover_container {
+  float: left;
+  width: 100%;
+  padding: 50px 0
+}
+
+.register_top {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid#ddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  float: left
+}
+
+.header_hover:hover {
+  border-bottom: #fff 2px solid
+}
+
+.text_it_bold {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px
+}
+
+.text_it_normal {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px
+}
+
+.register_bottom {
+  float: left;
+  width: 100%;
+  margin-top: 25px
+}
+
+.register_bottom.active {
+  display: block
+}
+
+.form_cover {
+  float: left;
+  width: 100%;
+  height: 100%
+}
+
+.cover_input,.cover_input_2 {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative
+}
+
+.f_left {
+  float: left
+}
+
+.f_right {
+  float: right
+}
+
+.item_input {
+  display: inline-block;
+  width: calc(100% / 2 - 25px);
+  margin-bottom: 20px;
+  position: relative
+}
+
+.label_style {
+  float: left;
+  width: 100%
+}
+
+.title_input {
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  color: #444;
+  margin-bottom: 5px
+}
+
+.title_input span {
+  color: red
+}
+
+.img_input {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 36px;
+  top: 46px
+}
+
+.item_input .select2-container {
+  width: 100%!important
+}
+
+.input_style {
+  background: #fff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  line-height: 153.69%;
+  color: #444;
+  padding: 0 20px;
+  float: left;
+  font-family: RobotoMedium
+}
+
+.cover_tab {
+  float: left;
+  display: inline-block;
+  border: .5px solid #c8c8c8;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px
+}
+
+.it_tab {
+  float: left;
+  padding: 10px 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #495057;
+  border: .5px solid #fff;
+  border-radius: 3px;
+  z-index: 9999999;
+  position: relative;
+  background: #fff
+}
+
+.it_tab:hover {
+  background: #f2f8fe;
+  border: .5px solid #4c5bd4;
+  box-sizing: border-box;
+  color: #4c5bd4;
+  border-radius: 3px
+}
+
+.it_tab.active {
+  background: #f2f8fe;
+  border: .5px solid #4c5bd4;
+  box-sizing: border-box;
+  color: #4c5bd4;
+  border-radius: 3px
+}
+
+.cover_input_tab input {
+  width: 100%
+}
+
+.dash {
+  position: absolute;
+  color: #666;
+  left: 97%;
+  bottom: 25%
+}
+
+.cover_input_tab input:first-child {
+  border-radius: 4px
+}
+
+.cover_input_tab input:last-child {
+  border-radius: 4px
+}
+
+.title_input02 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #6d6d6d;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px
+}
+
+.main_cover_avatar {
+  width: 480px;
+  margin: auto
+}
+
+.cover_avatar {
+  float: left;
+  width: 100%;
+  text-align: center
+}
+
+
+.text_avatar {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #333;
+  margin-top: 5px
+}
+
+.text_avatar span {
+  color: red
+}
+
+.btn_avatar {
+  float: left;
+  width: 100%;
+  margin: 25px 0
+}
+
+.btn_dang_ky {
+  background: #4c5bd4;
+  border-radius: 3px;
+  border: unset;
+  width: 48%;
+  height: 43px;
+  line-height: 43px;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  color: #fff;
+  float: right
+}
+
+.text_avatar_02 {
+  float: left;
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167.69%;
+  text-align: center;
+  color: #333
+}
+
+.text_avatar_02 span {
+  color: #4c5bd4
+}
+
+.img_register {
+  width: 66px;
+  height: 66px
+}
+
+.popup_login {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #4c5bd4;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 25px;
+  float: left;
+  border: none
+}
+
+.ic_home {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.color_4c {
+  color: #4c5bd4
+}
+
+.color_fa {
+  color: #ffa12b
+}
+
+.img_border {
+  border-radius: 3px
+}
+
+.cover_background {
+  background: url(https://freelancer.timviec365.vn/images/banner_home_1366.webp) no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  width: 100%
+}
+
+.container_relative {
+  position: relative
+}
+
+.banner_home {
+  width: 100%;
+  position: absolute;
+  top: 230px
+}
+
+.title_home {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 35px
+}
+
+.cover_search {
+  max-width: 730px;
+  padding: 15px;
+  background: rgba(196,196,196,.3);
+  border-radius: 40px;
+  height: 80px;
+  box-sizing: border-box;
+  margin: auto;
+  display: block
+}
+
+.main_search {
+  float: left;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+  border-radius: 30px
+}
+
+.cover_input_search {
+  float: left;
+  height: 100%;
+  margin-left: 25px;
+  line-height: 50px
+}
+
+.cover_input_search,.cover_select_search {
+  /* width: calc(100% / 3 - 30px - 2px) */
+}
+
+.input_search {
+  border: unset;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  width: 100%
+}
+
+.cover_select_search {
+  float: left;
+  height: 100%;
+  line-height: 50px
+}
+
+.line {
+  height: 22px;
+  float: left;
+  width: 1px;
+  background: #666;
+  margin-top: 14px
+}
+
+.cover_select_search span.select2 {
+  width: 100%!important
+}
+
+.btn_search {
+  float: right;
+  height: 100%;
+  width: 65px;
+  background: #f9ab00;
+  border-radius: 0 50px 50px 0
+}
+
+.btn_search button {
+  border: unset;
+  height: 100%;
+  cursor: pointer;
+  width: 100%;
+  background: unset
+}
+
+.btn_search button img {
+  position: relative;
+  top: 4px;
+  width: 20px;
+  height: 20px
+}
+
+.span_search {
+  display: none
+}
+
+.nganh_nghe_noi_bat {
+  max-width: 730px;
+  margin: auto;
+  margin-top: 30px
+}
+
+.p_nganh_nghe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 15px
+}
+
+.list_nganh_nghe {
+  width: 100%;
+  float: left
+}
+
+.it_nganh_nghe {
+  width: calc(100% / 5 - 20px);
+  text-align: center;
+  background: rgba(159,169,184,.25);
+  border-radius: 20px;
+  padding: 20px 15px;
+  float: left;
+  margin: 0 10px;
+  cursor: pointer
+}
+
+.img_nganh_nghe {
+  width: 30px;
+  height: 30px
+}
+
+.it_nganh_nghe p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff
+}
+
+.cover_item_home {
+  float: left;
+  width: 100%;
+  background: #f6f7fc
+}
+
+.cover_job {
+  float: left;
+  width: 100%;
+  padding: 120px 0
+}
+
+.job {
+  width: 90%;
+  margin: auto;
+  position: relative
+}
+
+.title_h2_job {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.text_p_job {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #444;
+  font-weight: 400
+}
+
+.cover_it_job {
+  float: left;
+  width: 100%;
+  margin-top: 60px
+}
+
+.item_job {
+  float: left;
+  width: calc(100% / 4 - 20px);
+  margin: 0 10px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  height: 215px;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer
+}
+
+.img_item_job {
+  width: 50px;
+  height: 50px
+}
+
+.text_item_job {
+  margin-top: 30px
+}
+
+.h3_text_it {
+  font-size: 16px;
+  line-height: 24px;
+  color: #444;
+  font-weight: 400;
+  margin-bottom: 10px
+}
+
+.p_text_it {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #666;
+  font-weight: 400
+}
+
+.cover_item02_home {
+  float: left;
+  width: 100%;
+  background: #fff
+}
+
+.see_all {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration-line: underline;
+  color: #444;
+  position: absolute;
+  right: 0;
+  top: 30px
+}
+
+.ic_right {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px
+}
+
+.job02 {
+  width: 80%;
+  margin: auto
+}
+
+.img_top {
+  width: 360px;
+  height: 186px
+}
+
+.ic_home {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px
+}
+
+.list_vieclamduan {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px
+}
+
+.slick-slide {
+  height: auto!important
+}
+
+.item_duan {
+  margin: 0 17px;
+  display: flex!important;
+  flex: 1;
+  flex-direction: column
+}
+
+.content_it_duan {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  box-sizing: border-box
+}
+
+.content_it_top {
+  float: left;
+  width: 100%;
+  height: 171px;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 10px 10px 0 0
+}
+
+.img_top {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  border-radius: inherit
+}
+
+.bg_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: inherit;
+  top: 0;
+  background: linear-gradient(360deg,#0c0c0c 0,rgba(0,0,0,0) 42%)
+}
+
+.cover_user {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box
+}
+
+.img_user {
+  border: 1px solid #d9d9d9;
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  display: inline-block!important;
+  vertical-align: middle;
+  border-radius: 3px
+}
+
+.name_user {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize
+}
+
+.content_it_bottom {
+  flex: 1;
+  float: left;
+  width: 100%;
+  border-top: unset;
+  border: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  height: auto;
+  overflow: hidden
+}
+
+.title_content_it {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c5bd4;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-transform: capitalize
+}
+
+.it_min {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666
+}
+
+.it_min_left {
+  float: left
+}
+
+.it_min_right {
+  float: right
+}
+
+.text_p_it_bottom {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  float: left;
+  width: 100%;
+  min-height: 50px
+}
+
+.slick-prev {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: -5%;
+  top: 50%;
+  z-index: 9999;
+  cursor: pointer
+}
+
+.slick-next {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: -5%;
+  top: 50%;
+  z-index: 9999;
+  cursor: pointer
+}
+
+.price_tag {
+  cursor: pointer;
+  float: left;
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background: #4c5bd4;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff
+}
+
+.item_job02 {
+  float: left;
+  width: 100%;
+  background: beige;
+  padding: 35px
+}
+
+.item_job02:nth-child(odd) {
+  background: #fff
+}
+
+.item_job02:nth-child(even) {
+  background: #fafafa
+}
+
+.item_job02:first-child {
+  border-radius: 10px 10px 0 0
+}
+
+.item_job02:last-child {
+  border-radius: 0 0 10px 10px
+}
+
+.text_item_job_02 {
+  float: left;
+  margin-left: 25px;
+  width: calc(100% - 75px - 250px - 91px)
+}
+
+.h3_text_it_02 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4c5bd4
+}
+
+.info_user_job02 {
+  clear: both;
+  display: flex;
+  align-items: center
+}
+
+.text_content_it01 span:first-child {
+  width: 165px;
+  float: left
+}
+
+.img_user_job02 {
+  width: 91px;
+  height: 91px;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  float: left;
+  object-fit: cover
+}
+
+.it_info_user {
+  align-items: center;
+  display: flex;
+  margin-right: 25px;
+  white-space: nowrap;
+  margin-top: 6px
+}
+
+.it_info_user img {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle
+}
+
+.it_info_user span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #777;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: capitalize
+}
+
+.tag_nganh_nghe {
+  float: left;
+  clear: both
+}
+
+.it_tag_nganh_nghe {
+  background: #e4e6f9;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: inline-block;
+  height: 27px;
+  line-height: 27px;
+  padding: 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #4c5bd4;
+  margin-bottom: 5px
+}
+
+.btn_right_home {
+  float: right;
+  width: 250px;
+  text-align: center
+}
+
+.dat_gia {
+  cursor: pointer;
+  text-align: center;
+  background: #4c5bd4;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block
+}
+
+.gia {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 153.69%;
+  color: #777;
+  text-align: center
+}
+
+.list_diadiemviec {
+  float: left;
+  width: 100%;
+  margin-top: 60px
+}
+
+.item_diadiem {
+  width: calc(100% / 4 - 18px);
+  margin: 0 9px;
+  float: left;
+  position: relative;
+  height: 360px
+}
+
+.img_vieclam {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px
+}
+
+.text_vieclam {
+  position: absolute;
+  bottom: 30px;
+  left: 30px
+}
+
+.text01_vieclam {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 10px
+}
+
+.text02_vieclam {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  background: #fff;
+  border-radius: 4px;
+  color: #333
+}
+
+.banner_list_freelancer {
+  width: 100%;
+  height: 369px;
+  background: url(https://freelancer.timviec365.vn/images/banner_list_freelancer_1366.webp) no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  position: relative;
+  z-index: 99
+}
+
+.relative_banner {
+  position: relative
+}
+
+.cover_content_banner_freelancer {
+  width: 100%;
+  position: absolute;
+  top: 114px
+}
+
+.content_banner_freelancer {
+  text-align: center;
+  padding: 35px 0;
+  width: 50%;
+  border-radius: 15px;
+  background: rgba(24,43,73,.8);
+  margin: auto
+}
+
+.content_banner_freelancer span {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .0125em;
+  color: #fff
+}
+
+.main_freelancer {
+  float: left;
+  width: 100%;
+  padding: 120px 50px 50px;
+  position: relative
+}
+
+.main_cover_search {
+  margin-top: 120px
+}
+
+.bg_f8 {
+  background: #f8f9fc;
+  box-shadow: 0 0 3px rgba(0,0,0,.15)
+}
+
+.title_freelancer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 65px
+}
+
+.title_h1_freelancer {
+  font-family: InterRegular;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #444;
+  font-weight: 200;
+  margin-bottom: 15px;
+  position: relative
+}
+
+.title_h1_freelancer::after {
+  content: "";
+  display: block;
+  width: 123px;
+  height: 9px;
+  background: url(https://freelancer.timviec365.vn/images/img_line.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto
+}
+
+.text_p_freelancer {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #666
+}
+
+.content_freelancer {
+  float: left;
+  width: 100%
+}
+
+.left_content_freelancer {
+  float: left;
+  width: 70%;
+  margin-right: 40px
+}
+
+.item_freelancer {
+  float: left;
+  width: 100%;
+  padding: 25px;
+  display: inline-block;
+  background: #fff;
+  border: 1px dashed #ddd;
+  box-sizing: border-box;
+  border-radius: 16px;
+  min-height: 188px;
+  overflow: hidden;
+  margin-bottom: 35px
+}
+
+.img_item_user {
+  width: 67px;
+  height: 67px;
+  margin-right: 15px;
+  float: left
+}
+
+.img_item_user img {
+  border-radius: 4px;
+  width: 67px;
+  height: 67px
+}
+
+.content_it_freelancer {
+  width: calc(100% - 67px - 15px);
+  float: left;
+  position: relative;
+  height: auto;
+  overflow: hidden
+}
+
+.text_content_it01 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: .3px;
+  color: #777;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px
+}
+
+.text_content_it {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666;
+  margin: 5px 0;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical
+}
+
+.cover_see_more {
+  float: left;
+  width: 100%;
+  text-align: center
+}
+
+.btn_see_more {
+  height: 46px;
+  line-height: 46px;
+  width: 40%;
+  text-align: center;
+  border: unset;
+  background: #4c5bd4;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff
+}
+
+.right_content_freelancer {
+  float: right;
+  width: calc(100% - 70% - 40px)
+}
+
+.p_it_right {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: .3px;
+  text-transform: capitalize;
+  color: #444;
+  position: relative;
+  padding-bottom: 5px
+}
+
+.p_it_right::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #4c5bd4;
+  bottom: 0;
+  left: 0
+}
+
+.freelancer_job_left {
+  box-shadow: 0 0 10px rgb(68 68 68 / 10%);
+  border-radius: 16px
+}
+
+.freelancer_job_left .item_job02 {
+  border-bottom: 1px dashed #ddd
+}
+
+.color_06 {
+  color: #666
+}
+
+.bottom_unset {
+  border-bottom: unset!important
+}
+
+.info_ntd {
+  margin: 10px 10px 0 0
+}
+
+.text_p_info_job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696
+}
+
+.ic_01 {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.lien_he {
+  width: 175px;
+  height: 45px;
+  display: block;
+  line-height: 45px;
+  text-align: center;
+  background: #febe42;
+  border: 1px solid #febe42;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgb(102 103 107 / 15%);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 15px;
+  cursor: pointer
+}
+
+.left_job_bottom {
+  float: left;
+  width: 60%
+}
+
+.text_p_info {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: .003em;
+  color: #666;
+  margin-top: 20px
+}
+
+.thong_tin_dat_gia {
+  float: left;
+  width: 100%;
+  background: #182b49;
+  border-radius: 10px;
+  padding: 40px 60px;
+  margin-top: 20px
+}
+
+.p_dat_gia {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: .003em;
+  color: #fff;
+  margin-bottom: 5px
+}
+
+.input_dat_gia {
+  background: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 47px;
+  font-size: 16px;
+  line-height: 153.69%;
+  color: #444;
+  padding: 0 20px;
+  float: left
+}
+
+.button_dat_gia {
+  cursor: pointer;
+  width: 100%;
+  background: #febe42;
+  border-radius: 10px;
+  border: unset;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  height: 47px;
+  line-height: 47px;
+  margin-top: 10px
+}
+
+.cover_list_dat_gia {
+  float: left;
+  width: 100%;
+  margin-top: 20px
+}
+
+.item_dat_gia {
+  float: left;
+  background: #fff;
+  box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px
+}
+
+.img_item_dat_gia {
+  width: 51px;
+  height: 51px;
+  margin-right: 15px;
+  float: left
+}
+
+.img_item_dat_gia img {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 5px
+}
+
+.item_dat_gia_left {
+  display: inline-block;
+  width: calc(100% - 30% - 29px);
+  vertical-align: middle;
+  border-right: 1px solid #efefef
+}
+
+.item_dat_gia_right {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  margin-left: 25px
+}
+
+.p01_right_dat_gia {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  color: #f81c1c;
+  margin-bottom: 15px
+}
+
+.p02_right_dat_gia {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666
+}
+
+.p_it_dat_gia {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: .003em;
+  color: #666;
+  margin-bottom: 15px
+}
+
+.ic_02 {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle
+}
+
+.cover_img_file {
+  float: left;
+  width: 100%;
+  height: 286px;
+  margin-top: 20px
+}
+
+.cover_file_left {
+  width: 60%;
+  height: 100%;
+  float: left
+}
+
+.cover_file_left img {
+  border-radius: 3px
+}
+
+.cover_file_right {
+  float: right;
+  width: calc(100% - 60% - 5px);
+  height: 100%;
+  overflow: hidden;
+  margin-left: 5px
+}
+
+.cover_file_right img {
+  width: 100%;
+  height: calc(100% / 2 - 10px);
+  margin-bottom: 10px;
+  border-radius: 3px
+}
+
+.ic_03 {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.right_job_bottom {
+  float: right;
+  width: calc(100% - 60% - 50px)
+}
+
+.ic_04 {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px
+}
+
+.xem_lien_he {
+  cursor: pointer
+}
+
+.cover_post {
+  float: left;
+  width: 100%
+}
+
+.it_post {
+  float: left;
+  width: 100%;
+  padding: 25px 0;
+  border-bottom: 1px solid #ebebeb
+}
+
+.cover_it_post {
+  float: left;
+  width: calc(100% - 157px - 25px)
+}
+
+.ic_10 {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px
+}
+
+.text_01 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: .3px;
+  color: #666
+}
+
+.p01_banner {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #666;
+  margin-top: 20px
+}
+
+.cover_btn_banner {
+  float: left;
+  width: 100%;
+  margin-top: 35px
+}
+
+.ic_14 {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.bg_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+  background: #f3f6f9
+}
+
+.cover_freelancer_nganh_nghe {
+  float: left;
+  width: 100%
+}
+
+.main_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+  margin: 100px 0
+}
+
+.text_p_freelancer_nganh_nghe {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #666
+}
+
+.list_freelancer_nganh_nghe {
+  float: left;
+  display: flex;
+  flex-wrap: wrap
+}
+
+.item_freelancer_nganh_nghe {
+  width: calc(100% / 3 - 40px);
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 50px;
+  border-bottom: transparent 4px solid
+}
+
+.item_freelancer_nganh_nghe:hover {
+  border-bottom: 4px solid #4c5bd4
+}
+
+.ic_15 {
+  width: 58px;
+  height: 58px
+}
+
+.h3_freelancer_nganh_nghe {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #38475a
+}
+
+.p_item_freelancer_nganh_nghe {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #666;
+  margin-top: 20px
+}
+
+.a_item_freelancer_nganh_nghe {
+  display: inline-block;
+  margin-top: 15px
+}
+
+.a_item_freelancer_nganh_nghe span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  color: #4c5bd4;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.ic_18 {
+  width: 14px;
+  height: 11px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.cover_sub_freelancer_nganh_nghe {
+  float: left;
+  width: 100%
+}
+
+.main_sub_freelancer_nganh_nghe {
+  width: 75%;
+  margin: auto
+}
+
+.sub_freelancer_nganh_nghe {
+  float: left;
+  width: 100%;
+  margin: 35px 0;
+  display: flex;
+  justify-content: space-between
+}
+
+.img_dang_du_an01 {
+  width: 200px;
+  height: 156px
+}
+
+.img_dang_du_an02 {
+  width: 145px;
+  height: 150px
+}
+
+.cover_text_nn {
+  width: 80%
+}
+
+.p1_text_nn {
+  font-weight: 400;
+  font-size: 23px;
+  color: #444;
+  background: #d7e8fc;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  text-align: center;
+  line-height: 39px;
+  float: left;
+  margin-right: 10px
+}
+
+.main_text_nn {
+  float: right;
+  width: calc(100% - 49px)
+}
+
+.p01_main_text_nn {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 26px;
+  color: #444;
+  margin-bottom: 16px
+}
+
+.p02_main_text_nn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666
+}
+
+.btn_dang_viec_ngay {
+  float: left;
+  width: 100%;
+  text-align: center
+}
+
+.dang_viec_ngay {
+  background: #4c5bd4;
+  border-radius: 10px;
+  width: 219px;
+  margin: 50px auto;
+  height: 48px;
+  line-height: 48px
+}
+
+.ic_dang_viec {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.dang_viec_ngay span {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff
+}
+
+.banner_dang_viec {
+  width: 100%;
+  height: 306px;
+  background-image: url(https://freelancer.timviec365.vn/images/banner_dang_viec_1366.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative
+}
+
+.cover_content_banner_dang_viec {
+  position: absolute;
+  width: 100%;
+  top: 50px
+}
+
+.content_banner_dang_viec {
+  text-align: center;
+  width: 40%;
+  border-radius: 15px;
+  background: rgba(24,43,73,.8);
+  padding: 35px 0;
+  margin: auto
+}
+
+.content_banner_dang_viec span {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: .0125em;
+  color: #fff;
+  text-transform: uppercase
+}
+
+.margin_100 {
+  margin: 100px 0
+}
+
+.cover_text_it01 {
+  width: 80%
+}
+
+.height_01 {
+  height: 23%
+}
+
+.height_02 {
+  height: 44%
+}
+
+.height_03 {
+  height: 22%
+}
+
+@media only screen and (min-width: 1520px) {
+  .banner {
+      height:275px;
+      background: url(https://freelancer.timviec365.vn/images/banner_1520.png) no-repeat;
+      background-size: 100% 100%
+  }
+
+  .content_banner {
+      width: 45%
+  }
+
+  .cover_background {
+      background: url(https://freelancer.timviec365.vn/images/banner_home_1520.webp) no-repeat;
+      background-size: 100% 100%
+  }
+
+  .banner_list_freelancer {
+      width: 100%;
+      height: 402px;
+      background: url(https://freelancer.timviec365.vn/images/banner_list_freelancer_1520.webp) no-repeat;
+      background-size: 100% 100%
+  }
+
+  .cover_content_banner_freelancer {
+      top: 135px
+  }
+
+  .main_cover_search {
+      margin-top: 135px
+  }
+
+  .banner_dang_viec {
+      width: 100%;
+      height: 340px;
+      background-image: url(https://freelancer.timviec365.vn/images/banner_dang_viec_1520.png)
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner {
+      height:275px;
+      background: url(https://freelancer.timviec365.vn/images/banner_1024.png) no-repeat;
+      background-size: 100% 100%
+  }
+
+  .content_banner {
+      width: 50%
+  }
+
+  .banner_home {
+      top: 155px
+  }
+
+  .cover_background {
+      background: url(https://freelancer.timviec365.vn/images/banner_home_1024.webp) no-repeat;
+      background-size: 100% 100%;
+      height: 670px
+  }
+
+  .job {
+      width: 100%;
+      padding: 0 20px
+  }
+
+  .cover_job {
+      padding: 90px 0
+  }
+
+  .item_job {
+      padding: 30px 10px
+  }
+
+  .it_min_left {
+      float: unset
+  }
+
+  .it_min_right {
+      float: unset
+  }
+
+  .slick-prev {
+      top: 45%;
+      left: 0
+  }
+
+  .slick-next {
+      top: 45%;
+      right: 0
+  }
+
+  .banner_list_freelancer {
+      width: 100%;
+      height: 369px;
+      background: url(https://freelancer.timviec365.vn/images/banner_list_freelancer_1024.webp) no-repeat;
+      background-size: 100% 100%
+  }
+
+  .main_freelancer {
+      padding: 85px 20px 50px
+  }
+
+  .title_freelancer {
+      margin-bottom: 50px
+  }
+
+  .cover_img_file {
+      height: 215px
+  }
+
+  .banner_dang_viec {
+      width: 100%;
+      height: 320px;
+      background-image: url(https://freelancer.timviec365.vn/images/banner_dang_viec_1024.png)
+  }
+
+  .content_banner_dang_viec {
+      width: 50%
+  }
+
+  .height_01 {
+      height: 18%
+  }
+
+  .height_02 {
+      height: 54%
+  }
+
+  .height_03 {
+      height: 16%
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+      height:275px;
+      background: url(https://freelancer.timviec365.vn/images/banner_768.png) no-repeat;
+      background-size: 100% 100%
+  }
+
+  .content_banner {
+      width: 65%
+  }
+
+  .banner_home {
+      top: 145px
+  }
+
+  .cover_background {
+      background: url(https://freelancer.timviec365.vn/images/banner_home_768.webp) no-repeat;
+      background-size: 100% 100%;
+      height: 670px
+  }
+
+  .item_job {
+      width: calc(100% / 3 - 20px)
+  }
+
+  .banner_list_freelancer {
+      width: 100%;
+      height: 317px;
+      background: url(https://freelancer.timviec365.vn/images/banner_list_freelancer_768.webp) no-repeat;
+      background-size: 100% 100%
+  }
+
+  .content_banner_dang_viec {
+      width: 65%
+  }
+
+  .cover_content_banner_freelancer {
+      top: 90px
+  }
+
+  .main_cover_search {
+      margin-top: 90px
+  }
+
+  .bg_f8 {
+      width: 85%
+  }
+
+  .main_freelancer {
+      padding: 80px 20px 50px
+  }
+
+  .left_content_freelancer {
+      width: 100%;
+      margin-right: unset
+  }
+
+  .right_content_freelancer {
+      width: 100%;
+      margin-top: 50px
+  }
+
+  .left_job_bottom {
+      width: 100%
+  }
+
+  .right_job_bottom {
+      width: 100%;
+      margin-top: 10px
+  }
+
+  .cover_img_file {
+      height: 292px
+  }
+
+  .banner_dang_viec {
+      width: 100%;
+      height: 240px;
+      background-image: url(https://freelancer.timviec365.vn/images/banner_dang_viec_768.png)
+  }
+
+  .height_01 {
+      height: 19%
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .banner {
+      height:275px;
+      background: linear-gradient(360deg,#0c0c0c 0,rgba(0,0,0,0) 100%);
+      background-size: 100% 100%
+  }
+
+  .content_banner {
+      width: 90%
+  }
+
+  .main_cover_avatar {
+      width: 95%;
+      margin: auto
+  }
+
+  .cover_background {
+      background: #2335b0;
+      background-size: 100% 100%;
+      height: 400px
+  }
+
+  .banner_home {
+      top: 100px
+  }
+
+  .title_home {
+      display: none
+  }
+
+  .nganh_nghe_noi_bat {
+      display: none
+  }
+
+  .cover_search {
+      background: unset;
+      padding: 0 30px
+  }
+
+  .main_search {
+      height: auto;
+      overflow: unset;
+      background: unset
+  }
+
+  .cover_input_search,.cover_select_search {
+      width: 100%;
+      margin-left: unset;
+      margin-bottom: 20px
+  }
+
+  .input_search {
+      height: 45px;
+      line-height: 45px;
+      padding: 0 10px;
+      background: unset;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      border-bottom: 2px solid #fff
+  }
+
+  .input_search::placeholder {
+      color: #fff
+  }
+
+  .cover_job {
+      padding: 80px 0 65px
+  }
+
+  .job {
+      padding: 0 32px
+  }
+
+  .text_p_job {
+      line-height: 10px;
+      font-size: 16px
+  }
+
+  .cover_it_job {
+      margin-top: 24px
+  }
+
+  .cover_it_job_fix {
+      margin-top: 60px!important
+  }
+
+  .job_fix {
+      padding: 0 20px!important
+  }
+
+  .line {
+      display: none
+  }
+
+  .cover_select_search {
+      line-height: unset
+  }
+
+  .item_duan {
+      margin: 0 10px
+  }
+
+  .btn_search {
+      height: 45px;
+      width: 100%;
+      border-radius: 4px
+  }
+
+  .btn_search button img {
+      display: none
+  }
+
+  .span_search {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      color: #fff;
+      display: block
+  }
+
+  .item_job {
+      width: 80%;
+      margin: 0 auto 25px;
+      padding: 30px;
+      float: unset
+  }
+
+  .item_job02 {
+      padding: 30px 20px
+  }
+
+  .img_user_job02 {
+      display: none
+  }
+
+  .text_item_job_02 {
+      width: 100%;
+      margin-left: unset
+  }
+
+  .btn_right_home {
+      width: 100%;
+      margin-top: 20px
+  }
+
+  .dat_gia {
+      float: left;
+      margin-right: 20px
+  }
+
+  .gia {
+      float: left;
+      width: auto;
+      margin-left: 0;
+      margin-top: 15px
+  }
+
+  .it_info_user {
+      width: 100%;
+      margin-right: unset;
+      margin-bottom: 10px
+  }
+
+  .h3_text_it_02 {
+      margin-bottom: 5px
+  }
+
+  .item_diadiem {
+      width: calc(100% / 2 - 18px);
+      margin-bottom: 25px
+  }
+
+  .banner_list_freelancer {
+      width: 100%;
+      height: 550px;
+      background: linear-gradient(360deg,#0c0c0c 0,rgba(0,0,0,0) 100%);
+      background-size: 100% 100%
+  }
+
+  .cover_container .main_freelancer {
+      visibility: hidden
+  }
+
+  .content_banner_freelancer {
+      width: 90%
+  }
+
+  .main_cover_search {
+      margin-top: 65px
+  }
+
+  .main_freelancer {
+      padding: 80px 15px 50px
+  }
+
+  .item_freelancer {
+      margin-bottom: 30px
+  }
+
+  .text_content_it {
+      margin-top: 30px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 5;
+      display: -webkit-box;
+      -webkit-box-orient: vertical
+  }
+
+  .info_user_job02 {
+      flex-wrap: wrap
+  }
+
+  .thong_tin_dat_gia {
+      padding: 40px
+  }
+
+  .item_dat_gia_left {
+      width: 100%;
+      border-right: unset;
+      border-bottom: 1px solid #efefef;
+      padding-bottom: 15px
+  }
+
+  .item_dat_gia_right {
+      width: 100%;
+      margin-left: unset;
+      margin-top: 15px
+  }
+
+  .lien_he {
+      width: 215px;
+      margin-left: auto
+  }
+
+  .cover_img_file {
+      height: 140px
+  }
+
+  .cover_it_post {
+      width: 100%
+  }
+
+  .banner_dang_viec {
+      width: 100%;
+      height: 210px;
+      background-image: url(https://freelancer.timviec365.vn/images/banner_dang_viec_414.png)
+  }
+
+  .content_banner_dang_viec span {
+      font-size: 24px
+  }
+
+  .content_banner_dang_viec {
+      width: 95%
+  }
+
+  .cover_text_it01 {
+      width: 100%
+  }
+
+  .f_unset {
+      float: unset
+  }
+
+  .height_01 {
+      height: 23%
+  }
+
+  .height_02 {
+      height: 50%
+  }
+
+  .height_03 {
+      height: 18%
+  }
+
+  .see_all {
+      position: unset;
+      text-align: center;
+      margin-top: 10px
+  }
+
+  .item_freelancer_nganh_nghe,.main_sub_freelancer_nganh_nghe {
+      width: calc(100% - 40px)
+  }
+
+  .sub_freelancer_nganh_nghe {
+      flex-direction: column
+  }
+
+  .sub_freelancer_nganh_nghe:nth-of-type(2) {
+      flex-direction: column-reverse
+  }
+
+  .it_sub_freelancer {
+      text-align: center
+  }
+
+  .p01_main_text_nn {
+      font-size: 20px
+  }
+
+  .cover_btn_banner {
+      width: 100%;
+      margin-top: 35px;
+      display: flex;
+      flex-direction: column
+  }
+
+  .img_banner_tin {
+      display: none
+  }
+
+  .item_input {
+      width: calc(100% / 2 - 10px)
+  }
+}
+
+.flex {
+  display: flex
+}
+
+.space {
+  justify-content: space-between
+}
+
+.position_r {
+  position: relative
+}
+
+.c-pointer {
+  cursor: pointer
+}
+
+.top-10 {
+  margin-top: 10px
+}
+
+.top-7 {
+  margin-top: 7px
+}
+
+.cover_input_2 label.error {
+  top: 55px!important
+}
+
+.register_flc {
+  cursor: pointer
+}
+
+#btn-top {
+  display: none
+}
+
+.cover_item_home .job {
+  visibility: hidden
+}
+
+.select2-container--default .select2-selection--single {
+  border: none
+}

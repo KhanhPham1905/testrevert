@@ -1,0 +1,503 @@
+@media all {
+    .banner {
+        width: 100%;
+        height: 242px;
+        background: url(https://freelancer.timviec365.vn/images/banner_1366.webp) no-repeat;
+        background-size: 100% 100%;
+        float: left;
+        position: relative;
+    }
+    .cover_content_banner_both {
+        position: absolute;
+        width: 100%;
+        top: 75px;
+    }
+    .content_banner {
+        text-align: center;
+        width: 50%;
+        border-radius: 15px;
+        background: rgba(24, 43, 73, 0.8);
+        padding: 35px 0;
+        margin: auto;
+    }
+    .content_banner span {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.0125em;
+        color: #ffffff;
+    }
+    .relative_banner {
+        position: relative;
+    }
+    @media only screen and (min-width: 1520px) {
+        .banner {
+            height: 275px;
+            background: url(https://freelancer.timviec365.vn/images/banner_1520.webp) no-repeat;
+            background-size: 100% 100%;
+        }
+        .cover_content_banner_both {
+            top: 90px;
+        }
+        .content_banner {
+            width: 45%;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        .banner {
+            height: 275px;
+            background: url(https://freelancer.timviec365.vn/images/banner_1024.webp) no-repeat;
+            background-size: 100% 100%;
+        }
+        .cover_content_banner_both {
+            top: 90px;
+        }
+        .content_banner {
+            width: 50%;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .banner {
+            height: 275px;
+            background: url(https://freelancer.timviec365.vn/images/banner_768.webp) no-repeat;
+            background-size: 100% 100%;
+        }
+        .content_banner {
+            width: 65%;
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .banner {
+            height: 275px;
+            background: linear-gradient(360deg, #0c0c0c 0%, rgba(0, 0, 0, 0) 100%);
+            background-size: 100% 100%;
+        }
+        .content_banner {
+            width: 90%;
+        }
+    }
+}
+
+
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style.css?v=1698000334 ; media=all */
+@media all {
+
+    .container {
+        width: 95%;
+        margin: auto;
+        max-width: 1275px;
+    }
+    .d_block {
+        display: block;
+        color: unset;
+    }
+
+    .pos_re {
+        position: relative;
+    }
+    .padding_style {
+        padding: 0 80px;
+    }
+    .text_capi {
+        text-transform: capitalize;
+    }
+    .cover_container {
+        float: left;
+        width: 100%;
+    }
+    .main_container {
+        height: auto;
+    }
+    .yellow_star {
+        height: 24px;
+        background: #f9ab00;
+    }
+    .ratting_star_1 {
+        background: url(https://freelancer.timviec365.vn/images/sao.png) no-repeat;
+        background-size: 80% 100%;
+        float: left;
+        width: 90%;
+        height: 24px;
+        position: absolute;
+        top: 0;
+    }
+    @media only screen and (max-width: 1024px) {
+        .container {
+            width: 100%;
+        }
+        .padding_style {
+            padding: 0 15px;
+        }
+    }
+}
+/*! CSS Used from: https://freelancer.timviec365.vn/css/style_freelancer.css?v=1698000334 ; media=all */
+@media all {
+    .img_user {
+        border: 1px solid #d9d9d9;
+        object-fit: cover;
+        width: 65px;
+        height: 65px;
+        display: inline-block !important;
+        vertical-align: middle;
+        border-radius: 3px;
+    }
+    .p_it_right {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-transform: capitalize;
+        color: #444444;
+        position: relative;
+        padding-bottom: 5px;
+    }
+    .p_it_right::after {
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 2px;
+        background-color: #4c5bd4;
+        bottom: 0;
+        left: 0;
+    }
+    .cover_job_detail {
+        margin: 50px 0;
+        float: left;
+        width: 100%;
+    }
+    .job_detail_top {
+        float: left;
+        width: 100%;
+        border-bottom: 1px dotted #000000;
+        padding-bottom: 25px;
+    }
+    .left_detail_top {
+        float: left;
+        width: 75%;
+    }
+    .cover_text_job_dt {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+        width: calc(100% - 113px - 25px);
+    }
+    .title_job_dt {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #444444;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        word-break: break-all;
+    }
+    .text_p_info_job {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #969696;
+    }
+    .ic_01 {
+        width: 19px;
+        height: 19px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .location_job_dt {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1px;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 23px;
+        text-transform: capitalize;
+        color: #666666;
+    }
+    .right_detail_top {
+        float: right;
+        width: 25%;
+    }
+    .lien_he {
+        height: 45px;
+        display: block;
+        line-height: 45px;
+        text-align: center;
+        background: #febe42;
+        border: 1px solid #febe42;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 8px rgb(102 103 107 / 15%);
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 15px;
+        color: #ffffff;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    .job_detail_bottom {
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .left_job_bottom {
+        float: left;
+        width: 60%;
+    }
+    .it_left_jb_bt {
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .text_p_info {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.003em;
+        color: #666666;
+        margin-top: 20px;
+        word-break: break-all;
+    }
+    .tag_skill {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .it_skill {
+        display: inline-block;
+        padding: 6px 20px;
+        background: #e7f1ff;
+        opacity: 0.75;
+        border-radius: 8px;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #444444;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .luu_ct {
+        display: block;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border: 1px solid #666666;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 8px rgb(102 103 107 / 15%);
+        border-radius: 10px;
+        background: #fff;
+        font-weight: normal;
+        font-size: 16px;
+        color: #666666;
+        cursor: pointer;
+    }
+    .ic_02 {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+    }
+    .it_skill span {
+        vertical-align: middle;
+        word-break: break-all;
+    }
+    .cover_img_file {
+        float: left;
+        width: 100%;
+        height: 286px;
+        margin-top: 20px;
+    }
+    .cover_file_left {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+    .cover_file_left img {
+        border-radius: 3px;
+    }
+    .ic_03 {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .right_job_bottom {
+        float: right;
+        width: calc(100% - 60% - 50px);
+    }
+    .it_right_job_bt {
+        float: left;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .p_it_right_bt {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 29px;
+        letter-spacing: 0.003em;
+        color: #444444;
+    }
+    .bg_FAFDFF {
+        background: #fafdff;
+    }
+    .cover_list_job_bt {
+        float: left;
+        width: 100%;
+        padding: 0px 20px;
+        border: 2px solid #efefef;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .it_jb_bt {
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid #ebebeb;
+        padding: 15px 0;
+    }
+    .it_jb_bt:last-child {
+        border-bottom: unset;
+    }
+    .ic_04 {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+    .text_it_jb_left {
+        font-weight: normal;
+        font-size: 15px;
+        color: #666666;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .text_it_jb_right {
+        float: right;
+        font-weight: normal;
+        font-size: 15px;
+        color: #666666;
+    }
+    .xem_lien_he {
+        cursor: pointer;
+    }
+    .cover_star {
+        float: right;
+        width: 170px;
+        height: 24px;
+        top: 12px;
+    }
+    .yellow_star {
+        width: 100%;
+        height: 100%;
+        background: #f9ab00;
+    }
+    .chart {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    div#circle {
+        position: relative;
+        width: 128px;
+        height: 128px;
+        margin: 20px auto;
+    }
+    .foreground_circle {
+        stroke: #4c5bd4 !important;
+    }
+    .background_circle {
+        stroke: #dde6f1 !important;
+    }
+    .circle-text {
+        display: none;
+    }
+    .text_chart {
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 153.69%;
+        text-align: center;
+        color: #4c5bd4;
+        position: absolute;
+        top: 33%;
+        left: 33%;
+        width: 60px;
+    }
+    .p_chart {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 153.69%;
+        text-align: center;
+        color: #666666;
+    }
+    @media only screen and (max-width: 1024px) {
+        .cover_job_detail {
+            margin: 30px 0;
+        }
+        .cover_img_file {
+            height: 215px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .right_detail_top {
+            width: 28%;
+        }
+        .left_detail_top {
+            width: 72%;
+        }
+        .left_job_bottom {
+            width: 100%;
+        }
+        .right_job_bottom {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .cover_img_file {
+            height: 292px;
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .cover_text_job_dt {
+            margin-left: 15px;
+        }
+        .left_detail_top {
+            width: 100%;
+        }
+        .right_detail_top {
+            margin-top: 10px;
+            width: 100%;
+        }
+        .lien_he,
+        .luu_ct {
+            width: 215px;
+            margin-left: auto;
+        }
+        .cover_img_file {
+            height: 140px;
+        }
+    }
+}
+/*! CSS Used from: https://freelancer.timviec365.vn/css/main.css */
+.foreground_circle {
+    fill: none;
+    stroke: #3498db;
+}
+.background_circle {
+    fill: none;
+    stroke: #ccc;
+}
+.circle_text {
+    font-family: Arial, sans-serif;
+    color: #aaa;
+    font-size: 20px;
+    display: none;
+}
+.circle_container {
+    overflow: visible;
+}
+
+.circleH{
+    position: relative;
+    width: 128px;
+    height: 128px;
+    margin: 20px auto;
+}

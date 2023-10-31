@@ -1,0 +1,15 @@
+.ant-modal-content{
+    width: 680px;
+    /* height: 580px; */
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-modal .ant-modal-content {
+    padding: 0;
+}
+.ant-modal {
+    display: flex !important;
+    /* position: fixed; */
+    /* top: '50%' !important;
+    transform: 'translateY(-50%)' !important; */
+    align-items: center !important;
+    justify-content: center !important;
+}

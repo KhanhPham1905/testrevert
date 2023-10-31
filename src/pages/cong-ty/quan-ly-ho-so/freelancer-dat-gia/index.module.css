@@ -1,0 +1,167 @@
+.right_container {
+    float: left;
+    width: 80%;
+    height: 100%;
+    background: #F7F9FB;
+    padding: 30px;
+    border-left: 1px solid #D5DCE1;
+    min-height: 600px;
+}
+
+.cate {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cate span, .cate a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666C7C;
+}
+
+.job_new {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+.text_p_job {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+}
+
+.title_table_02 {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: #4C5BD4;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+.item_title_table_02, .item_table_02 {
+    /* float: left; */
+    /* width: calc(65% / 5); */
+    /* width: calc(100% / 5); */
+    text-align: center;
+}
+
+.main_table_job {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+
+.p_it_title_02 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.cate span:last-child a {
+    color: #4C5BD4;
+}
+
+.it_red {
+    color: #F56A6A;
+}
+
+.item_table p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.item_table {
+    /* float: left; */
+    /* width: calc(65% / 4); */
+    text-align: center;
+}
+
+.it_pink {
+    background: #f56a6a45;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 15px;
+    color: #666;
+}
+.icon_21 {
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.icon_18 {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.title_table_02 {
+    /* float: left; */
+    width: 100%;
+    height: 100%;
+    background: #4C5BD4;
+    /* border-radius: 5px; */
+    padding: 15px 10px;
+}
+
+.content_table{
+    text-align: center;
+}
+
+th.column1{
+    border-radius: 5px 0 0 5px;
+}
+.column2{
+    width: 35%;
+}
+
+th.column5{
+    border-radius: 0 5px 5px 0;
+}
+
+.oddRow{
+    background: #F8F8FB !important;
+}
+.evenRow{
+    border-radius: 0 0 0 0 !important;
+}
+.it_blue {
+    color: #4C5BD4;
+    text-decoration: underline;
+}
+
+@media all {
+    @media only screen and (max-width: 1024px) {
+        .right_container {
+            width: 100%;
+            padding: 30px 20px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .main_table_job {
+            overflow: auto;
+        }
+        .cover_table,
+        .title_table_02 {
+            width: 1000px;
+        }
+    }
+    @media only screen and (max-width: 625px) {
+        .right_container {
+            padding: 30px 15px;
+        }
+    }
+}
